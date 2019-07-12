@@ -7,7 +7,7 @@
 #include "sitio.h"
 
 
-int main (int argc, char** argv){
+int main (int argc, char** argv) {
 
 //Errores:
 //exit(65): Falta un argumento de un parametro
@@ -37,15 +37,18 @@ int main (int argc, char** argv){
 			}
 		}
 
-		if (entrada >1 || salida >1){
-			puts("Los parametros -l (--leer) y -s (--salida) no pueden repetirse. Cancelando operacion...\n");
-			exit(67);
-		}
 
-		if (orden != 'h' && (entrada <1 || salida <1)){
-			puts("Tanto el parametro -l (--leer) como el parametro -s (--salida) son obligatorios. Cancelando operacion...\n");
+
+		if (orden != 'h' && (entrada <1)){
+			puts("El parametro -l (--leer) es obligatorio. Cancelando operacion...\n");
 			exit(67);
 		}else{
+
+			if (entrada >1 || salida >1){
+				puts("Los parametros -l (--leer) y -s (--salida) no pueden repetirse. Cancelando operacion...\n");
+				exit(67);
+			}
+
 			 //COMIENZO DE RECOLECCION DE PARAMETROS
 
 			if (orden == 'h'){
@@ -54,7 +57,7 @@ int main (int argc, char** argv){
 
 				FILE *file_in;
 				FILE *file_out;
-
+				file_out=stdout;
 
 				static const struct option longOpts[] = { //opciones largas para los flags, para getopt_long
 		    		{ "leer", required_argument, NULL, 'l' },
@@ -84,8 +87,13 @@ int main (int argc, char** argv){
 							puts("Se ingresó el parametro de salida pero no el de entrada. Intente de nuevo añadiendo -l <ruta de archivo de entrada>\n");
 							exit(67);
 						}else{
-							if (strcmp(optarg,"-")==0){
-								file_out=stdout;
+							if (optarg[0] == '-'){
+								if (strcmp(optarg,"-")!=0){ //Si el guion no era literal, era otro parametro
+									optind--;
+									puts("No se especifico archivo de salida, se imprimirá el resultado en pantalla.\n");
+
+								}
+
 							}else{
 								ruta_salida=optarg;
 							}
@@ -129,7 +137,7 @@ int main (int argc, char** argv){
 				//COMIENZO DEL PROGRAMA PRINCIPAL ---------------------------------------------------
 
 				error_t err = OK;
-
+				int error = 0;
 				if (ruta_salida != NULL && strcmp(ruta_salida,"-")!=0){
 					file_out = fopen(ruta_salida,"wb");
 					if (file_out == NULL){
@@ -142,22 +150,22 @@ int main (int argc, char** argv){
 				if (file_in!=NULL){
 					err = ordenes_salida(file_in,file_out,muni);
 					if (err != OK){
+						error=70;
 						switch (err){
-							err=70;
 							case ERROR_CAMPO_MUY_LARGO:
 							puts("Se encontro un campo demasiado largo."); //exit(70): Campo muy largo
 							break;
 						    case ERROR_FALTAN_CAMPOS:
 							puts("Formato incorrecto: Faltan campos."); //exit(71): Faltan campos
-							err++;
+							error++;
 							break;
 							case ERROR_CAMPO_NO_ES_NUMERICO:
 							puts("Formato incorrecto: Se esperaba un campo numerico, pero se encontro otro tipo."); //exit(72): Campo no es numerico
-							err+=2;
+							error+=2;
 							break;
 							case ERROR_TIPOLOGIA_NO_VALIDA:
 							puts("Formato incorrecto: Se encontro una tipologia no valida."); //exit(73): Tipologia no valida
-							err+=3;
+							error+=3;
 							break;
 							case OK: //Este caso solo esta para quitar un warning. No tiene sentido.
 							break;

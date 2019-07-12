@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "sitio.h"
 
 void ordenes_ayuda(){
@@ -55,27 +56,47 @@ error_t ordenes_salida_old(FILE* file_in, FILE* file_out,int muni){
 						return OK;
 }*/
 
-int array_search(const int** array,int arrayLength, int target){
+int array_search(int* array,int arrayLength, int target){
 
 	int found = -1;
 	for (int i=0;i<arrayLength && found==-1;i++){
-		if (array[i][0] == target){
+		if (array[i] == target){
 			found=i;
 		}
 	}
 	return found;
 }
 
+char *cargar_linea(FILE* file_in,char *cadena){
+	free(cadena); //La idea es usar siempre el mismo puntero con cada llamada.
+
+	int caracteres=16;
+	int pos=0;
+	cadena = (char *)(malloc(sizeof(char)*(caracteres+2)));
+	char c;
+	while ((c=fgetc(file_in))!='\n' && c != EOF){
+		cadena[pos]=c;
+		pos++;
+		if (pos==caracteres){
+			caracteres=caracteres*2;
+			cadena=realloc(cadena,sizeof(char)*(caracteres+2));
+		}
+	}
+	cadena[pos]='\n';
+	cadena[pos+1]='\0';
+	return cadena;
+}
+
+
 error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 	error_t err = OK;
-	size_t limite = 2048; //CARGAR LINEA DE FORMA DINAMICA _________!!!!!!!!!!!!!!!!$()"/$=(/"/&)")"
-	char linea[limite];
+	char* linea = NULL;
 	sitio_t sitio;
 	char color[12] = "";
 	char tipo[16] = "";
 
-	fgets(linea,limite,file_in);//Saco la primera linea que contiene los nombres de columna
-	fgets(linea,limite,file_in);
+	linea=cargar_linea(file_in,linea);//Saco la primera linea que contiene los nombres de columna
+	linea=cargar_linea(file_in,linea);
 	err = linea_csv_a_sitio_t(linea, &sitio);
 
 	if (!muni){ //SI NO SE USO LA OPCION -m
@@ -101,18 +122,21 @@ error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 
 		  fprintf(file_out,"%s,%s{%s: %s}<%s-dot>\n",sitio.sitios_latitud,sitio.sitios_longitud,tipo,sitio.sitios_denominacion,color);
 
-		  fgets(linea,limite,file_in);
+		  linea=cargar_linea(file_in,linea);
 		  err = linea_csv_a_sitio_t(linea, &sitio);
 		}
 
 	}else{ //SI SE USO LA OPCION -m
 
 		int cantMunicipios = 0;
-		int **municipios = (int**)(malloc(sizeOf(int)*2));
+		int *municipios = (int*)(malloc(sizeof(int)));
+		int *sumas = (int*)(malloc(sizeof(int)));
+
+		double *latitud = (double *)(malloc(sizeof(double)));
+		double *longitud = (double *)(malloc(sizeof(double)));
 		int pos = -1;
 		int valor = -1;
 		while (err == OK && !feof(file_in)){
-
 			switch (sitio.sitios_tipologia){
 				case TL_PUNTO_DE_ARROJO:
 					valor=1;
@@ -128,25 +152,60 @@ error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 			}
 
 			if ((pos = array_search(municipios,cantMunicipios,sitio.municipios_id))==-1){ //Si no estaba guardado el municipio
-				municipios[cantMunicipios][0] = sitio.municipios_id;
-				municipios[cantMunicipios][1] = valor;
+				municipios[cantMunicipios] = sitio.municipios_id;
+				sumas[cantMunicipios] = valor;
+				latitud[cantMunicipios] = atof(sitio.sitios_latitud); //Convertir string a double
+				longitud[cantMunicipios] = atof(sitio.sitios_longitud);
 				cantMunicipios++;
-				realloc(municipios,sizeOf(int)*2*(cantMunicipios+1));
+				sumas=realloc(sumas,sizeof(int)*(cantMunicipios+1));
+				municipios=realloc(municipios,sizeof(int)*(cantMunicipios+1));
+				latitud=realloc(latitud,sizeof(double)*(cantMunicipios+1));
+				longitud=realloc(longitud,sizeof(double)*(cantMunicipios+1));
 			}else{ //Si el municipio ya fue registrado
-				municipios[pos][1]+=valor;
+				sumas[pos]+=valor;
 			}
 
 
-		  fgets(linea,limite,file_in);
+		  linea=cargar_linea(file_in,linea);
 		  err = linea_csv_a_sitio_t(linea, &sitio);
 		}
 
+		//Comienza categorizacion y escritura de municipios:
 
+		int max = -1,maxPos=-1;
+		for (int i=0;i<cantMunicipios;i++){ //Reviso cual municipio tiene mayor valor
+			if (sumas[i]>max){
+				max=sumas[i];
+				maxPos=i;
+			}
+		}
 
+		int grado_relativo = sumas[maxPos]/4;
 
+		for (int i=0;i<cantMunicipios;i++){
+			if (sumas[i]<grado_relativo){
+				strcpy(color,"tan");
+			}else if (sumas[i]<grado_relativo*2){
+				strcpy(color,"yellow");
+			}else if (sumas[i]<grado_relativo*3){
+				strcpy(color,"orange");
+			}else{
+				strcpy(color,"default");
+			}
 
+			fprintf(file_out,"%lf,%lf<%s-dot>\n",latitud[i],longitud[i],color);
+		}
+
+		free(linea);
+		free(latitud);
+		free(longitud);
+		free(sumas);
 		free(municipios);
 	}
 
-	return err;
+	if (err==ERROR_FALTAN_CAMPOS && feof(file_in)){ //Si se termino el archivo ya no hay campos que leer, fin correcto.
+		return OK;
+	}else{
+		return err;
+	}
 }
