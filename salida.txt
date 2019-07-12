@@ -1,0 +1,301 @@
+-34.865542,-58.408072{microbasural: Arroyo del Rey I}<yellow-dot>
+-34.816800,-58.410361{microbasural: Arroyo del Rey II}<yellow-dot>
+-34.863225,-58.420542{microbasural: Avenida Argentina}<yellow-dot>
+-34.816500,-58.409214{punto de arrojo: Bradley}<tan-dot>
+-34.862131,-58.407003{microbasural: Camino de las Latas}<yellow-dot>
+-34.837017,-58.435942{basural: Club Aleman}<orange-dot>
+-34.877375,-58.370789{microbasural: El Plata}<yellow-dot>
+-34.827108,-58.429111{microbasural: Ombu}<yellow-dot>
+-34.829297,-58.408136{microbasural: Pedro Echagüe}<yellow-dot>
+-34.839803,-58.406408{punto de arrojo: Pintos}<tan-dot>
+-34.847000,-58.424839{microbasural: Tomas Guido}<yellow-dot>
+-34.655739,-58.366108{punto de arrojo: Chacabuco}<tan-dot>
+-34.647025,-58.350603{microbasural: Defensa}<yellow-dot>
+-34.661428,-58.401350{punto de arrojo: Ex Aceitera}<tan-dot>
+-34.655231,-58.351803{punto de arrojo: Huergo}<tan-dot>
+-34.658669,-58.349364{microbasural: Irala}<yellow-dot>
+-34.649464,-58.344844{punto de arrojo: Mazzini}<tan-dot>
+-34.660975,-58.401264{punto de arrojo: Murgiondo}<tan-dot>
+-34.650172,-58.340625{microbasural: Solis}<yellow-dot>
+-34.660322,-58.403136{punto de arrojo: Yatay}<tan-dot>
+-35.035064,-58.713050{macrobasural: Canuelas}<default-dot>
+-34.853950,-58.477053{microbasural: Arroyo Ortega}<yellow-dot>
+-34.819383,-58.500750{microbasural: Aguaribay}<yellow-dot>
+-34.842722,-58.435650{microbasural: Amat}<yellow-dot>
+-34.873664,-58.413278{microbasural: Avenida Argentina}<yellow-dot>
+-34.854419,-58.444244{microbasural: Ayacucho}<yellow-dot>
+-34.809000,-58.489258{punto de arrojo: Barrio La Campana}<tan-dot>
+-34.854431,-58.464333{microbasural: Baliza Chiriguano I}<yellow-dot>
+-34.847581,-58.469278{punto de arrojo: Baliza Chiriguano II}<tan-dot>
+-34.849436,-58.467825{punto de arrojo: Baliza Chiriguano III}<tan-dot>
+-34.843233,-58.482056{punto de arrojo: Barbier}<tan-dot>
+-34.836547,-58.500725{punto de arrojo: Beltran}<tan-dot>
+-34.848931,-58.472058{microbasural: Bolivar}<yellow-dot>
+-34.860133,-58.480439{punto de arrojo: Cementerio}<tan-dot>
+-34.784544,-58.495967{punto de arrojo: Cerro Catedral}<tan-dot>
+-34.886228,-58.431794{punto de arrojo: Cipres}<tan-dot>
+-34.817006,-58.509494{punto de arrojo: Colectora}<tan-dot>
+-34.850431,-58.453022{punto de arrojo: Colon I}<tan-dot>
+-34.853489,-58.450625{punto de arrojo: Colon II}<tan-dot>
+-34.795419,-58.494231{punto de arrojo: Coronacion}<tan-dot>
+-34.750261,-58.496769{microbasural: De Sanzio}<yellow-dot>
+-34.743500,-58.489783{punto de arrojo: Del Progreso}<tan-dot>
+-34.852789,-58.465789{microbasural: Dolores}<yellow-dot>
+-34.839489,-58.474947{punto de arrojo: Pedro Dreyer}<tan-dot>
+-34.804133,-58.480075{punto de arrojo: Duclout}<tan-dot>
+-34.828764,-58.506822{basural: Edison}<orange-dot>
+-34.816769,-58.503889{punto de arrojo: El Amancay}<tan-dot>
+-34.735003,-58.492247{microbasural: Elizalde}<yellow-dot>
+-34.742064,-58.493006{microbasural: Esparta}<yellow-dot>
+-34.821147,-58.506403{punto de arrojo: Estancia los Remedios}<tan-dot>
+-34.814169,-58.499733{microbasural: Fair}<yellow-dot>
+-34.839519,-58.473875{microbasural: Faro}<yellow-dot>
+-34.853097,-58.460892{microbasural: General Villegas}<yellow-dot>
+-34.835544,-58.500969{punto de arrojo: Guido Spano}<tan-dot>
+-34.750400,-58.507878{microbasural: Avenida Ingeniero Huergo}<yellow-dot>
+-34.855856,-58.472125{punto de arrojo: Jose Hernandez}<tan-dot>
+-34.771297,-58.492542{microbasural: Jose Maria Paz}<yellow-dot>
+-34.874617,-58.447850{microbasural: Juana de Arco}<yellow-dot>
+-34.849636,-58.434806{microbasural: Junin}<yellow-dot>
+-34.736031,-58.497250{punto de arrojo: La Noria I}<tan-dot>
+-34.736719,-58.498383{microbasural: La Noria II}<yellow-dot>
+-34.734542,-58.494408{punto de arrojo: La Noria III}<tan-dot>
+-34.757494,-58.489386{punto de arrojo: La Rabida}<tan-dot>
+-34.843494,-58.439214{punto de arrojo: Las Orquideas}<tan-dot>
+-34.857039,-58.443386{punto de arrojo: Loberia}<tan-dot>
+-34.851264,-58.447506{microbasural: Lobos}<yellow-dot>
+-34.831547,-58.501856{punto de arrojo: Lopez}<tan-dot>
+-34.747794,-58.482722{punto de arrojo: Los Pasteleros}<tan-dot>
+-34.842447,-58.480353{microbasural: Los Pinos}<yellow-dot>
+-34.845886,-58.441731{punto de arrojo: Lujan}<tan-dot>
+-34.859736,-58.461325{basural: Maipu}<orange-dot>
+-34.859517,-58.460500{punto de arrojo: Maipu calle}<tan-dot>
+-34.738850,-58.501125{microbasural: Mar del Plata}<yellow-dot>
+-34.777186,-58.288569{punto de arrojo: Mariana Arbel}<tan-dot>
+-34.848078,-58.490942{microbasural: Martin Fierro}<yellow-dot>
+-34.836514,-58.468756{microbasural: Martinez}<yellow-dot>
+-34.785903,-58.472300{microbasural: Maxer}<yellow-dot>
+-34.845144,-58.442361{punto de arrojo: Mercedes}<tan-dot>
+-34.814617,-58.504792{punto de arrojo: Monte Guarani}<tan-dot>
+-34.807022,-58.505553{punto de arrojo: Newton}<tan-dot>
+-34.834308,-58.501844{punto de arrojo: Palacios}<tan-dot>
+-34.874958,-58.414169{microbasural: Parravicini}<yellow-dot>
+-34.883703,-58.426753{punto de arrojo: Paz}<tan-dot>
+-34.857806,-58.475836{microbasural: Pizzurno}<yellow-dot>
+-34.739647,-58.494200{punto de arrojo: Platon}<tan-dot>
+-34.854019,-58.442775{microbasural: Predio Ayacucho}<yellow-dot>
+-34.885047,-58.429953{microbasural: Predio Cipres}<yellow-dot>
+-34.787564,-58.493864{microbasural: Predio Mainer}<yellow-dot>
+-34.790511,-58.498644{microbasural: Reserva}<yellow-dot>
+-34.786019,-58.470978{punto de arrojo: Ricardo Rojas}<tan-dot>
+-34.732692,-58.500942{punto de arrojo: Roca I}<tan-dot>
+-34.729919,-58.495939{punto de arrojo: Roca II}<tan-dot>
+-34.889047,-58.428156{microbasural: Ruta 16 (banquina)}<yellow-dot>
+-34.773969,-58.466714{punto de arrojo: Ruta 4}<tan-dot>
+-34.828692,-58.450086{punto de arrojo: Sabato}<tan-dot>
+-34.754447,-58.497339{punto de arrojo: San Juan}<tan-dot>
+-34.822606,-58.495847{punto de arrojo: San Luis}<tan-dot>
+-34.754481,-58.504842{punto de arrojo: Santos Vega}<tan-dot>
+-34.753650,-58.505436{microbasural: Segundo Sombra}<yellow-dot>
+-34.778903,-58.472247{punto de arrojo: Terminal}<tan-dot>
+-34.791933,-58.449547{microbasural: Valette}<yellow-dot>
+-34.871244,-58.449689{microbasural: Ventura avila}<yellow-dot>
+-34.847633,-58.440403{punto de arrojo: Zarate}<tan-dot>
+-34.844867,-58.533647{punto de arrojo: Avellaneda}<tan-dot>
+-34.872261,-58.588725{microbasural: Balcarce}<yellow-dot>
+-34.843981,-58.531869{punto de arrojo: General Lavalle}<tan-dot>
+-34.837456,-58.518647{punto de arrojo: Güemes}<tan-dot>
+-34.843042,-58.530006{punto de arrojo: Ituzaingo}<tan-dot>
+-34.841167,-58.526114{punto de arrojo: Pravaz}<tan-dot>
+-34.835294,-58.619511{microbasural: Puente Molina}<yellow-dot>
+-34.917403,-58.562139{basural: Tristan Suarez}<orange-dot>
+-34.712583,-58.555308{punto de arrojo: Arroyo de la Frontera}<tan-dot>
+-34.756197,-58.570242{microbasural: Arroyo Susana}<yellow-dot>
+-34.824711,-58.619281{microbasural: Acoyte}<yellow-dot>
+-34.705522,-58.614569{microbasural: Adelia}<yellow-dot>
+-34.727611,-58.628189{microbasural: Almafuerte}<yellow-dot>
+-34.781772,-58.614328{punto de arrojo: Alonso Pareja}<tan-dot>
+-34.704708,-58.512750{punto de arrojo: Ayacucho}<tan-dot>
+-34.726778,-58.621028{microbasural: Barrio 17 de Octubre}<yellow-dot>
+-34.795600,-58.610864{microbasural: Barrio Costa Azul}<yellow-dot>
+-34.722731,-58.480006{microbasural: Barrio Jose Hernandez}<yellow-dot>
+-34.781050,-58.615467{punto de arrojo: Barrio La Justina}<tan-dot>
+-34.773025,-58.607781{punto de arrojo: Barrio La Loma}<tan-dot>
+-34.724333,-58.481639{punto de arrojo: Barrio La Salada}<tan-dot>
+-34.801494,-58.617675{microbasural: Barrio Lujan}<yellow-dot>
+-34.711325,-58.556958{microbasural: Barrio Roggio I}<yellow-dot>
+-34.717639,-58.546750{microbasural: Barrio Roggio II}<yellow-dot>
+-34.716028,-58.550139{microbasural: Barrio Roggio III}<yellow-dot>
+-34.675833,-58.524264{punto de arrojo: Barrio San Martin}<tan-dot>
+-34.708675,-58.473508{microbasural: Barrio Sarmiento}<yellow-dot>
+-34.739022,-58.564875{microbasural: Bedoya}<yellow-dot>
+-34.752375,-58.587889{punto de arrojo: Beethoven}<tan-dot>
+-34.689025,-58.598272{microbasural: Berna}<yellow-dot>
+-34.752264,-58.612958{microbasural: Besares}<yellow-dot>
+-34.832864,-58.625919{punto de arrojo: Blas Parera}<tan-dot>
+-34.713797,-58.637622{microbasural: Brabard}<yellow-dot>
+-34.797756,-58.652400{punto de arrojo: Cabot}<tan-dot>
+-34.691086,-58.512272{microbasural: Callao}<yellow-dot>
+-34.791961,-58.657194{punto de arrojo: Calle 101}<tan-dot>
+-34.795339,-58.657222{punto de arrojo: Calle 103}<tan-dot>
+-34.794597,-58.656308{punto de arrojo: Calle 11}<tan-dot>
+-34.795156,-58.655575{punto de arrojo: Calle 9}<tan-dot>
+-34.699992,-58.623067{punto de arrojo: Carlos Casares}<tan-dot>
+-34.717722,-58.515556{basural: Cascotera El Vesubio}<orange-dot>
+-34.739889,-58.635528{basural: Cascotera Russo}<orange-dot>
+-34.708533,-58.554486{microbasural: Cementerio}<yellow-dot>
+-34.708244,-58.551483{punto de arrojo: Centenera}<tan-dot>
+-34.749742,-58.631217{microbasural: Cespedes}<yellow-dot>
+-34.781772,-58.614328{punto de arrojo: Chopin}<tan-dot>
+-34.819614,-58.625369{punto de arrojo: Colastine}<tan-dot>
+-34.675806,-58.501028{microbasural: Colectora General Paz}<yellow-dot>
+-34.743517,-58.608686{punto de arrojo: Colectora ruta 3}<tan-dot>
+-34.693792,-58.582303{microbasural: Colonia}<yellow-dot>
+-34.753133,-58.589583{punto de arrojo: Comodoro Py}<tan-dot>
+-34.820808,-58.623886{punto de arrojo: Concordia}<tan-dot>
+-34.790914,-58.611481{basural: Conde}<orange-dot>
+-34.715344,-58.635547{microbasural: Coronel Aguirre}<yellow-dot>
+-34.730005,-58.558239{punto de arrojo: Cristiania}<tan-dot>
+-34.708669,-58.553150{punto de arrojo: Crovara}<tan-dot>
+-34.794597,-58.660303{punto de arrojo: Curumalal}<tan-dot>
+-34.686475,-58.514311{microbasural: Cuzco}<yellow-dot>
+-34.706778,-58.566864{microbasural: De los Incas}<yellow-dot>
+-34.731778,-58.651083{basural: Doblas}<orange-dot>
+-34.751867,-58.617114{punto de arrojo: Dumond}<tan-dot>
+-34.713003,-58.553333{punto de arrojo: El Mermelero}<tan-dot>
+-34.719117,-58.540808{punto de arrojo: El Pindo}<tan-dot>
+-34.697567,-58.500361{punto de arrojo: España I}<tan-dot>
+-34.688964,-58.491000{punto de arrojo: España II}<tan-dot>
+-34.779811,-58.647650{punto de arrojo: Gallardo}<tan-dot>
+-34.708556,-58.554472{punto de arrojo: Gallo}<tan-dot>
+-34.719256,-58.630725{punto de arrojo: Garcia Merou}<tan-dot>
+-34.786286,-58.606572{punto de arrojo: Garmendia}<tan-dot>
+-34.699850,-58.518792{microbasural: Gorriti}<yellow-dot>
+-34.729028,-58.510694{basural: Granja Don Oscar}<orange-dot>
+-34.783883,-58.645886{punto de arrojo: Haiti}<tan-dot>
+-34.769367,-58.634542{punto de arrojo: Inca}<tan-dot>
+-34.727083,-58.578889{punto de arrojo: Isidro Casanova}<tan-dot>
+-34.736028,-58.621489{microbasural: La Bastilla}<yellow-dot>
+-34.687617,-58.598236{punto de arrojo: La Paz}<tan-dot>
+-34.711244,-58.467814{microbasural: La Ribera}<yellow-dot>
+-34.709997,-58.620569{microbasural: Lacar}<yellow-dot>
+-34.703217,-58.597053{microbasural: Larsen}<yellow-dot>
+-34.707911,-58.489086{microbasural: Las Achiras}<yellow-dot>
+-34.719303,-58.550389{microbasural: Las Camelias I}<yellow-dot>
+-34.716636,-58.552492{microbasural: Las Camelias II}<yellow-dot>
+-34.718189,-58.552664{punto de arrojo: Las Camelias III}<tan-dot>
+-34.741756,-58.637308{microbasural: Lavalleja I}<yellow-dot>
+-34.750111,-58.646697{microbasural: Lavalleja II}<yellow-dot>
+-34.836028,-58.643597{punto de Arrojo: Madreselva}<default-dot>
+-34.776786,-58.621897{microbasural: Magnasco}<yellow-dot>
+-34.838981,-58.639953{punto de Arrojo: Maranta}<default-dot>
+-34.736542,-58.561767{microbasural: Marconi I}<yellow-dot>
+-34.733258,-58.565889{microbasural: Marconi II}<yellow-dot>
+-34.728847,-58.484533{microbasural: Matanza}<yellow-dot>
+-34.841092,-58.637383{punto de Arrojo: Mimbrera}<default-dot>
+-34.830697,-58.628731{punto de arrojo: Molina}<tan-dot>
+-34.778611,-58.619753{punto de arrojo: Monseñor Lopez}<tan-dot>
+-34.734611,-58.639750{microbasural: Norquin}<yellow-dot>
+-34.727775,-58.567839{punto de arrojo: Obligado}<tan-dot>
+-34.844161,-58.633539{punto de Arrojo: Parnaso}<default-dot>
+-34.691119,-58.509472{microbasural: Pedro de Mendoza}<yellow-dot>
+-34.706136,-58.567731{punto de arrojo: Peribebuy}<tan-dot>
+-34.717136,-58.634764{basural: Polledo}<orange-dot>
+-34.776883,-58.650567{punto de arrojo: Posamay}<tan-dot>
+-34.731761,-58.651553{basural: Predio Cespedes I}<orange-dot>
+-34.731075,-58.653019{basural: Predio Cespedes II}<orange-dot>
+-34.721058,-58.479044{microbasural: Predio La Salada}<yellow-dot>
+-34.903828,-58.680006{microbasural: Predio Palermo}<yellow-dot>
+-34.726419,-58.507106{punto de arrojo: Puente 12}<tan-dot>
+-34.724108,-58.597489{punto de arrojo: Puna}<tan-dot>
+-34.836864,-58.642547{punto de Arrojo: Racunda}<default-dot>
+-34.709444,-58.473889{basural: Ramon Carrillo}<orange-dot>
+-34.743028,-58.609725{punto de arrojo: Recuero I}<tan-dot>
+-34.748175,-58.603578{microbasural: Recuero II}<yellow-dot>
+-34.747300,-58.633319{punto de arrojo: Riglos}<tan-dot>
+-34.718564,-58.547747{microbasural: Roggio}<yellow-dot>
+-34.702928,-58.486656{punto de arrojo: Roosevelt}<tan-dot>
+-34.720669,-58.538047{microbasural: Rotonda Querandi}<yellow-dot>
+-34.726042,-58.575911{punto de arrojo: Ruiz de los Llanos}<tan-dot>
+-34.748378,-58.663997{punto de arrojo: Ruta 1001 (Matanza)}<tan-dot>
+-34.825450,-58.643164{microbasural: Ruta 3}<yellow-dot>
+-34.774800,-58.597636{punto de arrojo: San Cayetano}<tan-dot>
+-34.696092,-58.498458{microbasural: San Martin}<yellow-dot>
+-34.733972,-58.647372{punto de arrojo: San Matias}<tan-dot>
+-34.785306,-58.646250{punto de arrojo: Scarlatti}<tan-dot>
+-34.754342,-58.588022{punto de arrojo: Spiro}<tan-dot>
+-34.768228,-58.577517{microbasural: Teuco}<yellow-dot>
+-34.690650,-58.492683{microbasural: Thompson}<yellow-dot>
+-34.767728,-58.637800{punto de arrojo: Tinogasta}<tan-dot>
+-34.778814,-58.648078{punto de Arrojo: Totoral}<default-dot>
+-34.768317,-58.576450{basural: Tuyu}<orange-dot>
+-34.718469,-58.593150{microbasural: Urdaneta}<yellow-dot>
+-34.782792,-58.612250{punto de arrojo: Varela}<tan-dot>
+-34.775700,-58.624533{punto de arrojo: Velazco}<tan-dot>
+-34.801169,-58.613681{basural: Vicente Ibañez}<orange-dot>
+-34.698639,-58.554889{basural: Villa Palito}<orange-dot>
+-34.750072,-58.629289{microbasural: Virgenes}<yellow-dot>
+-34.858675,-58.637800{punto de arrojo: Virrey del Pino}<tan-dot>
+-34.704061,-58.610078{microbasural: Vogel}<yellow-dot>
+-34.832994,-58.647275{punto de Arrojo: Wast}<default-dot>
+-34.690789,-58.441056{microbasural: ACUBA}<yellow-dot>
+-34.663522,-58.420239{microbasural: Bacara}<yellow-dot>
+-34.671378,-58.420267{punto de arrojo: Callao}<tan-dot>
+-34.688531,-58.446294{microbasural: Camino de la Ribera Sur}<yellow-dot>
+-34.671092,-58.418922{microbasural: Darragueira I}<yellow-dot>
+-34.673753,-58.422581{punto de arrojo: Darregueira II}<tan-dot>
+-34.672378,-58.396739{microbasural: Guatemala}<yellow-dot>
+-34.672950,-58.421750{punto de arrojo: Millan I}<tan-dot>
+-34.672289,-58.422247{punto de arrojo: Millan II}<tan-dot>
+-34.668942,-58.422550{punto de arrojo: Nidera}<tan-dot>
+-34.669608,-58.419025{punto de arrojo: Obon y la via}<tan-dot>
+-34.670972,-58.423978{punto de arrojo: Obon y Millan}<tan-dot>
+-34.667633,-58.418686{punto de arrojo: Pampa y la via}<tan-dot>
+-34.675364,-58.423972{punto de arrojo: Sayos y la via}<tan-dot>
+-34.688025,-58.397133{punto de arrojo: Veracruz}<tan-dot>
+-34.699875,-58.431953{punto de arrojo: Villa Caraza}<tan-dot>
+-34.673097,-58.433150{punto de arrojo: Villa Jardin}<tan-dot>
+-34.694000,-58.450778{punto de Arrojo: Villegas}<default-dot>
+-34.718314,-58.438994{microbasural: Barrio La Cava}<yellow-dot>
+-34.736528,-58.482014{punto de arrojo: Barrio Olimpo I}<tan-dot>
+-34.711831,-58.445856{punto de arrojo: Barrio Olimpo II}<tan-dot>
+-34.708817,-58.446275{microbasural: Barrio Roberto Arlt}<yellow-dot>
+-34.721992,-58.445892{punto de arrojo: Bajada a colectora de Peron}<tan-dot>
+-34.718644,-58.448756{punto de arrojo: Canada}<tan-dot>
+-34.758967,-58.470581{microbasural: Chancheria Lomas}<yellow-dot>
+-34.692933,-58.449622{punto de arrojo: Conesa}<tan-dot>
+-34.727961,-58.483578{microbasural: Desembocadura Arroyo Catalina}<yellow-dot>
+-34.714328,-58.441289{punto de arrojo: Diagonal Pasaje Roberto Arlt}<tan-dot>
+-34.720822,-58.476450{punto de arrojo: Euskadi}<tan-dot>
+-34.703422,-58.450694{basural: Galasso}<orange-dot>
+-34.721675,-58.477497{punto de arrojo: Goiri}<tan-dot>
+-34.689908,-58.447444{punto de arrojo: Hornos}<tan-dot>
+-34.734792,-58.459453{basural: Itati}<orange-dot>
+-34.816086,-58.430717{microbasural: Lavallol}<yellow-dot>
+-34.717256,-58.472489{punto de arrojo: Lavarden}<tan-dot>
+-34.751983,-58.439603{punto de arrojo: Luis Viale}<tan-dot>
+-34.733664,-58.475439{punto de arrojo: Manzini}<tan-dot>
+-34.695111,-58.449456{microbasural: Meandro Arroyo Unamuno}<yellow-dot>
+-34.740564,-58.485411{punto de arrojo: Millan fondo}<tan-dot>
+-34.720272,-58.475858{punto de arrojo: Otto Krausse}<tan-dot>
+-34.759614,-58.470917{microbasural: Peñaloza}<yellow-dot>
+-34.714550,-58.445947{punto de arrojo: Pio Baroja}<tan-dot>
+-34.715206,-58.448250{microbasural: Predio Arce}<yellow-dot>
+-34.730342,-58.487092{punto de arrojo: Predio Ponds}<tan-dot>
+-34.751794,-58.479514{punto de arrojo: Puente Colon}<tan-dot>
+-34.717328,-58.449572{punto de arrojo: Quesada}<tan-dot>
+-34.714267,-58.447472{microbasural: Santuario}<yellow-dot>
+-34.727733,-58.483900{punto de arrojo: Tramo final Arroyo Santa Catalina}<tan-dot>
+-34.718947,-58.474394{punto de arrojo: Virgilio}<tan-dot>
+-34.789561,-58.854944{punto de arrojo: Cementerio}<tan-dot>
+-34.837825,-58.835728{macrobasural: Marcos Paz I}<default-dot>
+-34.808622,-58.810586{basural: Marcos Paz II}<orange-dot>
+-34.708114,-58.688136{microbasural: Jufre}<yellow-dot>
+-34.725542,-58.659528{punto de arrojo: Merlo}<tan-dot>
+-34.740886,-58.679756{microbasural: Montes de Oca}<yellow-dot>
+-34.700825,-58.658875{punto de arrojo: Naciente Arroyo Moron}<tan-dot>
+-34.753869,-58.680092{punto de arrojo: Paz Roldan}<tan-dot>
+-34.748625,-58.663978{punto de arrojo: Ruta 1001 (Merlo)}<tan-dot>
+-34.716753,-58.710858{punto de Arrojo: Santa Monica}<default-dot>
+-34.706733,-58.685411{microbasural: Triunvirato}<yellow-dot>
+-34.701806,-58.639797{microbasural: Santa Rosa}<yellow-dot>

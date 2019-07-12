@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <string.h>
+#include "sitio.h"
 
 void ordenes_ayuda(){
 
 	puts("El programa admite los siguientes argumentos:\n -h|-a|--help|--ayuda: Muestra que argumentos admite el programa con una ayuda breve para cada uno.\n -l|--leer <archivo>: Carga el archivo CSV de nombre \"archivo\".\n -s|--salida <archivo>: Indica el nombre del archivo donde se generará la secuencia de puntos. Si se indica como archivo \"-\" o se omite este argumento (solo se escribe -s|-a|--help|--ayuda), la salida se envia a la salida estandar.\n -m|--municipio: Indica que se generara un unico punto por cada municipio.\n");
 
 }
-
-void ordenes_salida(FILE* file_in, FILE* file_out,int muni){
+/*
+error_t ordenes_salida_old(FILE* file_in, FILE* file_out,int muni){
 
 						//Reservo de antemano espacio para los string porque no puedo saber cuanto reservar a no ser que
 
@@ -46,9 +47,106 @@ void ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 										}
 									}
 								}else{
-									fscanf(file_in,"%*[^\n]"); //Si hubo error de lectura, pasar de la linea para poder continuar
+									return ERROR_FALTAN_CAMPOS;
 								}
 							}
 
 						}
+						return OK;
+}*/
+
+int array_search(const int** array,int arrayLength, int target){
+
+	int found = -1;
+	for (int i=0;i<arrayLength && found==-1;i++){
+		if (array[i][0] == target){
+			found=i;
+		}
+	}
+	return found;
+}
+
+error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
+	error_t err = OK;
+	size_t limite = 2048; //CARGAR LINEA DE FORMA DINAMICA _________!!!!!!!!!!!!!!!!$()"/$=(/"/&)")"
+	char linea[limite];
+	sitio_t sitio;
+	char color[12] = "";
+	char tipo[16] = "";
+
+	fgets(linea,limite,file_in);//Saco la primera linea que contiene los nombres de columna
+	fgets(linea,limite,file_in);
+	err = linea_csv_a_sitio_t(linea, &sitio);
+
+	if (!muni){ //SI NO SE USO LA OPCION -m
+
+		while (err == OK && !feof(file_in)){
+			switch (sitio.sitios_tipologia){
+				case TL_PUNTO_DE_ARROJO:
+					strcpy(color,"tan");
+					strcpy(tipo,"Punto de arrojo");
+				break;
+			    case TL_MICROBASURAL:
+					strcpy(color,"yellow");
+					strcpy(tipo,"Microbasural");
+				break;
+				case TL_BASURAL:
+					strcpy(color,"orange");
+					strcpy(tipo,"Basural");
+				break;
+				case TL_MACROBASURAL:
+					strcpy(color,"default");
+					strcpy(tipo,"Macrobasural");
+			}
+
+		  fprintf(file_out,"%s,%s{%s: %s}<%s-dot>\n",sitio.sitios_latitud,sitio.sitios_longitud,tipo,sitio.sitios_denominacion,color);
+
+		  fgets(linea,limite,file_in);
+		  err = linea_csv_a_sitio_t(linea, &sitio);
+		}
+
+	}else{ //SI SE USO LA OPCION -m
+
+		int cantMunicipios = 0;
+		int **municipios = (int**)(malloc(sizeOf(int)*2));
+		int pos = -1;
+		int valor = -1;
+		while (err == OK && !feof(file_in)){
+
+			switch (sitio.sitios_tipologia){
+				case TL_PUNTO_DE_ARROJO:
+					valor=1;
+				break;
+			    case TL_MICROBASURAL:
+					valor=2;
+				break;
+				case TL_BASURAL:
+					valor=3;
+				break;
+				case TL_MACROBASURAL:
+					valor=4;
+			}
+
+			if ((pos = array_search(municipios,cantMunicipios,sitio.municipios_id))==-1){ //Si no estaba guardado el municipio
+				municipios[cantMunicipios][0] = sitio.municipios_id;
+				municipios[cantMunicipios][1] = valor;
+				cantMunicipios++;
+				realloc(municipios,sizeOf(int)*2*(cantMunicipios+1));
+			}else{ //Si el municipio ya fue registrado
+				municipios[pos][1]+=valor;
+			}
+
+
+		  fgets(linea,limite,file_in);
+		  err = linea_csv_a_sitio_t(linea, &sitio);
+		}
+
+
+
+
+
+		free(municipios);
+	}
+
+	return err;
 }

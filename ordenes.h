@@ -1,8 +1,11 @@
 #ifndef __ORDENES_H__
 
 #define __ORDENES_H__
+
+#include "sitio.h"
+
 void ordenes_ayuda();
-void ordenes_salida(FILE* file_in,FILE* file_out,int muni);
+error_t ordenes_salida(FILE* file_in,FILE* file_out,int muni);
 
 
 #endif
