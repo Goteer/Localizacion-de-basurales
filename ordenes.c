@@ -56,7 +56,7 @@ error_t ordenes_salida_old(FILE* file_in, FILE* file_out,int muni){
 						return OK;
 }*/
 
-int array_search(int* array,int arrayLength, int target){
+int array_search(int* array,int arrayLength, int target){ //Busca si existe target en el array de largo arrayLength. Retorna la posicion, o -1 si no se encuentra.
 
 	int found = -1;
 	for (int i=0;i<arrayLength && found==-1;i++){
@@ -72,7 +72,7 @@ char *cargar_linea(FILE* file_in,char *cadena){
 
 	int caracteres=16;
 	int pos=0;
-	cadena = (char *)(malloc(sizeof(char)*(caracteres+2)));
+	cadena = (char *)(malloc(sizeof(char)*(caracteres+2))); //+2 para guardar el fin de linea necesario para sitio.c y el fin de string
 	char c;
 	while ((c=fgetc(file_in))!='\n' && c != EOF){
 		cadena[pos]=c;
@@ -201,6 +201,7 @@ error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 		free(sumas);
 		free(municipios);
 	}
+	free(linea); //En ambos casos se reserva memoria para guardar la linea.
 
 	free(linea);
 	if (err==ERROR_FALTAN_CAMPOS && feof(file_in)){ //Si se termino el archivo ya no hay campos que leer, fin correcto.
