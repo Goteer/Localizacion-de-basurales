@@ -1,0 +1,302 @@
+﻿sitios_id,sitios_denominacion,sitios_direccion,sitios_latitud,sitios_longitud,municipios_id,municipios_descripcion,sitios_tipologia,sitios_estado
+Bro-001,Arroyo del Rey I,Camino de Las Latas y naciente del arroyo del Rey,a-34.865542,-58.408072,28,Almirante Brown,microbasural,pendiente
+Bro-002,Arroyo del Rey II,Pino y Soto Acebal,-34.8168,-58.410361,28,Almirante Brown,microbasural,pendiente
+Bro-003,Avenida Argentina,Avenida Argentina a 1300 metros de la ruta provincial n° 16 y Fonrouge,-34.863225,-58.420542,28,Almirante Brown,microbasural,pendiente
+Bro-004,Bradley,Bradley y arroyo del Rey,-34.8165,-58.409214,28,Almirante Brown,punto de arrojo,pendiente
+Bro-005,Camino de las Latas,Ruta provincial n° 16 y Berlin,-34.862131,-58.407003,28,Almirante Brown,microbasural,pendiente
+Bro-006,Club Aleman,Avenida Argentina y Las Violetas,-34.837017,-58.435942,28,Almirante Brown,basural,pendiente
+Bro-007,El Plata,El Plata y Ovidio Lagos,-34.877375,-58.370789,28,Almirante Brown,microbasural,pendiente
+Bro-008,Ombu,Pino y Ombu,-34.827108,-58.429111,28,Almirante Brown,microbasural,pendiente
+Bro-009,Pedro Echagüe,Pedro Echagüe entre Eva Peron y arroyo del Rey,-34.829297,-58.408136,28,Almirante Brown,microbasural,pendiente
+Bro-010,Pintos,Cuyo entre Pintos y arroyo del Rey,-34.839803,-58.406408,28,Almirante Brown,punto de arrojo,pendiente
+Bro-011,Tomas Guido,Tomas Guido entre avenida Argentina y Jose Ingenieros,-34.847,-58.424839,28,Almirante Brown,microbasural,pendiente
+Ave-001,Chacabuco,Chacabuco y Zeballos,-34.655739,-58.366108,35,Avellaneda,punto de arrojo,pendiente
+Ave-002,Defensa,Defensa y Madrid,-34.647025,-58.350603,35,Avellaneda,microbasural,pendiente
+Ave-003,Ex Aceitera,Fabrica abandonada frente a la SIAM,-34.661428,-58.40135,35,Avellaneda,punto de arrojo,pendiente
+Ave-004,Huergo,Ingeniero Luis Huergo y autopista La Plata (bajo autopista),-34.655231,-58.351803,35,Avellaneda,punto de arrojo,pendiente
+Ave-005,Irala,Irala y Progreso (bajo autopista),-34.658669,-58.349364,35,Avellaneda,microbasural,pendiente
+Ave-006,Mazzini,Jose Mazzini y Nuñez,-34.649464,-58.344844,35,Avellaneda,punto de arrojo,pendiente
+Ave-007,Murgiondo,Camino de La Ribera y Murgiondo,-34.660975,-58.401264,35,Avellaneda,punto de arrojo,pendiente
+Ave-008,Solis,Avenida Juan Diaz de Solis y Sargento Ponce,-34.650172,-58.340625,35,Avellaneda,microbasural,pendiente
+Ave-009,Yatay,Camino de La Ribera entre Murgiondo y Yatay,-34.660322,-58.403136,35,Avellaneda,punto de arrojo,pendiente
+Cañ-001,Canuelas,Santa Cruz y ruta 6,-35.035064,-58.71305,134,Canuelas,macrobasural,pendiente
+Ech-001,Arroyo Ortega,Dolores entre Arenales y Pizzurno,-34.85395,-58.477053,260,Esteban Echeverria,microbasural,pendiente
+Ech-002,Aguaribay,Bouchard y Aguaribay,-34.819383,-58.50075,260,Esteban Echeverria,microbasural,pendiente
+Ech-003,Amat,Avenida Argentina y Mercedes,-34.842722,-58.43565,260,Esteban Echeverria,microbasural,pendiente
+Ech-004,Avenida Argentina,Ruta provincial n° 16 y Avenida Argentina (lado Echeverria),-34.873664,-58.413278,260,Esteban Echeverria,microbasural,pendiente
+Ech-005,Ayacucho,Ayacucho y General Lavalle,-34.854419,-58.444244,260,Esteban Echeverria,microbasural,pendiente
+Ech-006,Barrio La Campana,Avenida Fair y Queirel,-34.809,-58.489258,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-007,Baliza Chiriguano I,Baliza Chiriguano y Villegas,-34.854431,-58.464333,260,Esteban Echeverria,microbasural,pendiente
+Ech-008,Baliza Chiriguano II,Baliza Chiriguano y Bolivar,-34.847581,-58.469278,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-009,Baliza Chiriguano III,Baliza Chiriguano y Esquel,-34.849436,-58.467825,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-010,Barbier,Pedro Dreyer y Barbier,-34.843233,-58.482056,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-011,Beltran,Fray Luis Beltran y Palacios,-34.836547,-58.500725,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-012,Bolivar,Bolivar y Arenales,-34.848931,-58.472058,260,Esteban Echeverria,microbasural,pendiente
+Ech-013,Cementerio,Dolores entre Martin Fierro y cementerio Esteban Echeverria,-34.860133,-58.480439,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-014,Cerro Catedral,Cerro Catedral y Nuestras Malvinas,-34.784544,-58.495967,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-015,Cipres,Cipres y Roque Perez,-34.886228,-58.431794,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-016,Colectora,Colectora ex Cañuelas y Guarani,-34.817006,-58.509494,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-017,Colon I,Cristobal Colon entre Azul y Bahia Blanca,-34.850431,-58.453022,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-018,Colon II,Cristobal Colon entre Maipu y Zarate,-34.853489,-58.450625,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-019,Coronacion,Isla Coronacion y reserva Laguna de Rocha,-34.795419,-58.494231,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-020,De Sanzio,De Sanzio y Santos Vega,-34.750261,-58.496769,260,Esteban Echeverria,microbasural,pendiente
+Ech-021,Del Progreso,Maipu y Del Progreso,-34.7435,-58.489783,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-022,Dolores,Dolores y Baliza Chiriguano,-34.852789,-58.465789,260,Esteban Echeverria,microbasural,pendiente
+Ech-023,Pedro Dreyer,Esquina Pedro Dreyer entre Baliza Chiriguano y Faro 1 de Mayo,-34.839489,-58.474947,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-024,Duclout,Duclout y avenida Fair,-34.804133,-58.480075,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-025,Edison,Edison y 20 de Junio,-34.828764,-58.506822,260,Esteban Echeverria,basural,pendiente
+Ech-026,El Amancay,El Amancay y avenida Fair,-34.816769,-58.503889,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-027,Elizalde,Camino de La Ribera y Elizalde,-34.735003,-58.492247,260,Esteban Echeverria,microbasural,pendiente
+Ech-028,Esparta,Esparta y Homero,-34.742064,-58.493006,260,Esteban Echeverria,microbasural,pendiente
+Ech-029,Estancia los Remedios,Estancia de Los Remedios y Matheu (arroyo Rossi),-34.821147,-58.506403,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-030,Fair,Fair y arroyo Ortega,-34.814169,-58.499733,260,Esteban Echeverria,microbasural,pendiente
+Ech-031,Faro,Faro 1 de Mayo y Pedro Dreyer,-34.839519,-58.473875,260,Esteban Echeverria,microbasural,pendiente
+Ech-032,General Villegas,General Villegas y Ramon Santamarina,-34.853097,-58.460892,260,Esteban Echeverria,microbasural,pendiente
+Ech-033,Guido Spano,20 de Junio y Guido Spano,-34.835544,-58.500969,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-034,Avenida Ingeniero Huergo,Avenida Ingeniero Avenida Ingeniero Huergo y San Clemente,-34.7504,-58.507878,260,Esteban Echeverria,microbasural,pendiente
+Ech-035,Jose Hernandez,Dolores entre Pablo Pizzurno y Jose Hernandez (lateral del arroyo Medrano),-34.855856,-58.472125,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-036,Jose Maria Paz,Avenida Ingeniero Huego y General Jose Maria Paz,-34.771297,-58.492542,260,Esteban Echeverria,microbasural,pendiente
+Ech-037,Juana de Arco,Juana de Arco y Maipu,-34.874617,-58.44785,260,Esteban Echeverria,microbasural,pendiente
+Ech-038,Junin,Junin y Rodriguez,-34.849636,-58.434806,260,Esteban Echeverria,microbasural,pendiente
+Ech-039,La Noria I,Avenida La Noria y Blanco Encalada,-34.736031,-58.49725,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-040,La Noria II,Avenida La Noria y ruta provincial n° 4,-34.736719,-58.498383,260,Esteban Echeverria,microbasural,pendiente
+Ech-041,La Noria III,Avenida La Noria y Sobral,-34.734542,-58.494408,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-042,La Rabida,La Rabida y Doctor Restelli,-34.757494,-58.489386,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-043,Las Orquideas,Mercedes y Las Orquideas,-34.843494,-58.439214,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-044,Loberia,General Lavalle entre Ayacucho y Loberia (a 100 metros de Ayacucho),-34.857039,-58.443386,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-045,Lobos,General Lavalle entre Lobos y Zarate,-34.851264,-58.447506,260,Esteban Echeverria,microbasural,pendiente
+Ech-046,Lopez,Lopez y Jose Ingenieros,-34.831547,-58.501856,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-047,Los Pasteleros,Elizalde al 6500 y San Juan,-34.747794,-58.482722,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-048,Los Pinos,Los pinos y Pedro Pedro Dreyer,-34.842447,-58.480353,260,Esteban Echeverria,microbasural,pendiente
+Ech-049,Lujan,General Rodriguez y Lujan,-34.845886,-58.441731,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-050,Maipu,Maipu y Baliza Chiriguano,-34.859736,-58.461325,260,Esteban Echeverria,basural,pendiente
+Ech-051,Maipu calle,Maipu y Baliza Chiriguano (frente al sitio Maipu),-34.859517,-58.4605,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-052,Mar del Plata,Avenida La Noria y Mar del Plata,-34.73885,-58.501125,260,Esteban Echeverria,microbasural,pendiente
+Ech-053,Mariana Arbel,Mariana Arbel y Oliver,-34.777186,-58.288569,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-054,Martin Fierro,Martin Fierro y Pedro Dreyer,-34.848078,-58.490942,260,Esteban Echeverria,microbasural,pendiente
+Ech-055,Martinez,Martinez y Pedro Dreyer,-34.836514,-58.468756,260,Esteban Echeverria,microbasural,pendiente
+Ech-056,Maxer,Maxer y Monte Grande,-34.785903,-58.4723,260,Esteban Echeverria,microbasural,pendiente
+Ech-057,Mercedes,General Rodriguez y Mercedes,-34.845144,-58.442361,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-058,Monte Guarani,Monte Guarani entre El Aguaribay y colectora autopista Cañuelas,-34.814617,-58.504792,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-059,Newton,Ricardo Newton y La Orqueta,-34.807022,-58.505553,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-060,Palacios,Pedro Palacios y Gutierrez,-34.834308,-58.501844,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-061,Parravicini,Ruta provincial n°16 y Florencio Parraviccini,-34.874958,-58.414169,260,Esteban Echeverria,microbasural,pendiente
+Ech-062,Paz,Roque Perez y Paz,-34.883703,-58.426753,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-063,Pizzurno,Dolores y Pablo Pizzurno (lateral del cementerio),-34.857806,-58.475836,260,Esteban Echeverria,microbasural,pendiente
+Ech-064,Platon,Platon y Condie,-34.739647,-58.4942,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-065,Predio Ayacucho,Ayacucho entre Lavalle y Vicente Lopez,-34.854019,-58.442775,260,Esteban Echeverria,microbasural,pendiente
+Ech-066,Predio Cipres,Roque Perez entre Cipres y Colon,-34.885047,-58.429953,260,Esteban Echeverria,microbasural,pendiente
+Ech-067,Predio Mainer,Mainer y Contanzo,-34.787564,-58.493864,260,Esteban Echeverria,microbasural,pendiente
+Ech-068,Reserva,Mainer y reserva Laguna de Rocha,-34.790511,-58.498644,260,Esteban Echeverria,microbasural,pendiente
+Ech-069,Ricardo Rojas,Monte Grande y Ricardo Rojas,-34.786019,-58.470978,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-070,Roca I,Julio Argentino Roca entre Blanco Encalada y ruta provincial n° 4,-34.732692,-58.500942,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-071,Roca II,Julio Argentino Roca y Elizalde,-34.729919,-58.495939,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-072,Ruta 16 (banquina),Ruta provincial n° 16 entre Cipres y General Lavalle,-34.889047,-58.428156,260,Esteban Echeverria,microbasural,pendiente
+Ech-073,Ruta 4,Avenida Santa Catalina sobre colectora y arroyo Santa Catalina,-34.773969,-58.466714,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-074,Sabato,Sabato y avenida Pedro Suarez,-34.828692,-58.450086,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-075,San Juan,San Juan y Moreno,-34.754447,-58.497339,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-076,San Luis,Edison y San Luis,-34.822606,-58.495847,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-077,Santos Vega,Avenida Ingeniero Avenida Ingeniero Huergo y Santos Vega,-34.754481,-58.504842,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-078,Segundo Sombra,Avenida Ingeniero Huergo y Don Segundo Sombra,-34.75365,-58.505436,260,Esteban Echeverria,microbasural,pendiente
+Ech-079,Terminal,Lagos Garcia y F. Lopez,-34.778903,-58.472247,260,Esteban Echeverria,punto de arrojo,pendiente
+Ech-080,Valette,Ruta provincial n°4 y Sardi,-34.791933,-58.449547,260,Esteban Echeverria,microbasural,pendiente
+Ech-081,Ventura avila,Ventura avila entre camino country y Juana de Arco,-34.871244,-58.449689,260,Esteban Echeverria,microbasural,pendiente
+Ech-082,Zarate,General Rodrigez y Zarate,-34.847633,-58.440403,260,Esteban Echeverria,punto de arrojo,pendiente
+Eze-001,Avellaneda,General Belgrano y Avellaneda,-34.844867,-58.533647,270,Ezeiza,punto de arrojo,pendiente
+Eze-002,Balcarce,Balcarce y Blas Parera,-34.872261,-58.588725,270,Ezeiza,microbasural,pendiente
+Eze-003,General Lavalle,General Belgrano y Lavalle,-34.843981,-58.531869,270,Ezeiza,punto de arrojo,pendiente
+Eze-004,Güemes,Salta y Güemes,-34.837456,-58.518647,270,Ezeiza,punto de arrojo,pendiente
+Eze-005,Ituzaingo,General Belgrano e Ituzaingo,-34.843042,-58.530006,270,Ezeiza,punto de arrojo,pendiente
+Eze-006,Pravaz,General Belgrano y Pedro Pravaz,-34.841167,-58.526114,270,Ezeiza,punto de arrojo,pendiente
+Eze-007,Puente Molina,Avenida Molina y rio Matanza,-34.835294,-58.619511,270,Ezeiza,microbasural,pendiente
+Eze-008,Tristan Suarez,Montevideo y Vespucio,-34.917403,-58.562139,270,Ezeiza,basural,pendiente
+Mat-001,Arroyo de la Frontera,Juan Domingo Peron entre 17 de Octubre y Crovara,-34.712583,-58.555308,427,La Matanza,punto de arrojo,pendiente
+Mat-002,Arroyo Susana,Gobernador Bruno de Zabala entre arroyo Susana y Jamacaru,-34.756197,-58.570242,427,La Matanza,microbasural,pendiente
+Mat-003,Acoyte,Avenida Rio de La Plata y Acoyte,-34.824711,-58.619281,427,La Matanza,microbasural,pendiente
+Mat-004,Adelia,Carlos Casares y Adelia,-34.705522,-58.614569,427,La Matanza,microbasural,pendiente
+Mat-005,Almafuerte,Rio Cuarto y Gamboa,-34.727611,-58.628189,427,La Matanza,microbasural,pendiente
+Mat-006,Alonso Pareja,Ballivian y Alonso Pareja,-34.781772,-58.614328,427,La Matanza,punto de arrojo,pendiente
+Mat-007,Ayacucho,Ayacucho 1600 entre Jose Alico y Marcos Sastre,-34.704708,-58.51275,427,La Matanza,punto de arrojo,pendiente
+Mat-008,Barrio 17 de Octubre,Martin Garcia entre Merou y Lavalleja,-34.726778,-58.621028,427,La Matanza,microbasural,pendiente
+Mat-009,Barrio Costa Azul,Sanabria y Dungenes,-34.7956,-58.610864,427,La Matanza,microbasural,pendiente
+Mat-010,Barrio Jose Hernandez,Camino de La Ribera Norte entre Cauce Antiguo y Puente Colorado,-34.722731,-58.480006,427,La Matanza,microbasural,pendiente
+Mat-011,Barrio La Justina,Juan Chassaing y Ballivian,-34.78105,-58.615467,427,La Matanza,punto de arrojo,pendiente
+Mat-012,Barrio La Loma,Ruta nacional n° 3 kilometro 29 a 1000 metros del arroyo Apipe,-34.773025,-58.607781,427,La Matanza,punto de arrojo,pendiente
+Mat-013,Barrio La Salada,Camino de La Ribera Norte entre Vieytes y Pigüe,-34.724333,-58.481639,427,La Matanza,punto de arrojo,pendiente
+Mat-014,Barrio Lujan,Dungenes entre Dragones y Chascomus,-34.801494,-58.617675,427,La Matanza,microbasural,pendiente
+Mat-015,Barrio Roggio I,El Pindo e Intendente Crovara,-34.711325,-58.556958,427,La Matanza,microbasural,pendiente
+Mat-016,Barrio Roggio II,El Pindo sin numero y Mulita,-34.717639,-58.54675,427,La Matanza,microbasural,pendiente
+Mat-017,Barrio Roggio III,El Pindo y Ell Tapeti,-34.716028,-58.550139,427,La Matanza,microbasural,pendiente
+Mat-018,Barrio San Martin,Salcedo y Cabal,-34.675833,-58.524264,427,La Matanza,punto de arrojo,pendiente
+Mat-019,Barrio Sarmiento,Avenida Carrillo entre colectora General Paz y Boulonge Sur Mer,-34.708675,-58.473508,427,La Matanza,microbasural,pendiente
+Mat-020,Bedoya,Bedoya y ruta provincial n° 21,-34.739022,-58.564875,427,La Matanza,microbasural,pendiente
+Mat-021,Beethoven,Ruta provincial n° 21 y Beethoven (cruce de via),-34.752375,-58.587889,427,La Matanza,punto de arrojo,pendiente
+Mat-022,Berna,Berna entre La Paz y Venezuela,-34.689025,-58.598272,427,La Matanza,microbasural,pendiente
+Mat-023,Besares,Ruta nacional n° 3 y Besares,-34.752264,-58.612958,427,La Matanza,microbasural,pendiente
+Mat-024,Blas Parera,Blas sin numero a 530 metros del puente Molina,-34.832864,-58.625919,427,La Matanza,punto de arrojo,pendiente
+Mat-025,Brabard,Garcia Merau y Brabard,-34.713797,-58.637622,427,La Matanza,microbasural,pendiente
+Mat-026,Cabot,Juan M. Cabot 5700,-34.797756,-58.6524,427,La Matanza,punto de arrojo,pendiente
+Mat-027,Callao,Callao y Agrelo,-34.691086,-58.512272,427,La Matanza,microbasural,pendiente
+Mat-028,Calle 101,Calle 101 y calle 16,-34.791961,-58.657194,427,La Matanza,punto de arrojo,pendiente
+Mat-029,Calle 103,Calle 103 y calle 11,-34.795339,-58.657222,427,La Matanza,punto de arrojo,pendiente
+Mat-030,Calle 11,Juan M. Cabot y calle 11,-34.794597,-58.656308,427,La Matanza,punto de arrojo,pendiente
+Mat-031,Calle 9,Juan M. Cabot y calle 9,-34.795156,-58.655575,427,La Matanza,punto de arrojo,pendiente
+Mat-032,Carlos Casares,Carlos Casares y Santa Cruz,-34.699992,-58.623067,427,La Matanza,punto de arrojo,pendiente
+Mat-033,Cascotera El Vesubio,De La Riestra y ferrocarril Belgrano Sur,-34.717722,-58.515556,427,La Matanza,basural,pendiente
+Mat-034,Cascotera Russo,Russo y Lavalleja,-34.739889,-58.635528,427,La Matanza,basural,pendiente
+Mat-035,Cementerio,Arroyo de la Frontera y ferrocarril UGOFE,-34.708533,-58.554486,427,La Matanza,microbasural,pendiente
+Mat-036,Centenera,Avenida Crovara y Centenera,-34.708244,-58.551483,427,La Matanza,punto de arrojo,pendiente
+Mat-037,Cespedes,Zinny entre Cespedes y Doblas,-34.749742,-58.631217,427,La Matanza,microbasural,pendiente
+Mat-038,Chopin,Ballivian y Chopin,-34.781772,-58.614328,427,La Matanza,punto de arrojo,pendiente
+Mat-039,Colastine,Avenida Rio de La Plata y Colastine,-34.819614,-58.625369,427,La Matanza,punto de arrojo,pendiente
+Mat-040,Colectora General Paz,Colectora General Paz entre Crovara y Agrelo,-34.675806,-58.501028,427,La Matanza,microbasural,pendiente
+Mat-041,Colectora ruta 3,Ruta nacional n°3 entre Recuero y Rio Cuarto,-34.743517,-58.608686,427,La Matanza,punto de arrojo,pendiente
+Mat-042,Colonia,Colonia y Tomas Justo Villegas,-34.693792,-58.582303,427,La Matanza,microbasural,pendiente
+Mat-043,Comodoro Py,Comodoro Py y Andrade,-34.753133,-58.589583,427,La Matanza,punto de arrojo,pendiente
+Mat-044,Concordia,Avenida Rio de La Plata y Concordia,-34.820808,-58.623886,427,La Matanza,punto de arrojo,pendiente
+Mat-045,Conde,Coronel Conde entre Arrecifes y Dungenes,-34.790914,-58.611481,427,La Matanza,basural,pendiente
+Mat-046,Coronel Aguirre,Coronel Aguirre entre Merou y Mendez de Andes,-34.715344,-58.635547,427,La Matanza,microbasural,pendiente
+Mat-047,Cristiania,Cristiania entre ruta provincial n° 21 y Alelies,-34.730005,-58.558239,427,La Matanza,punto de arrojo,pendiente
+Mat-048,Crovara,Crovara y vias del Ferrocarril,-34.708669,-58.55315,427,La Matanza,punto de arrojo,pendiente
+Mat-049,Curumalal,Curumalal y calle 15,-34.794597,-58.660303,427,La Matanza,punto de arrojo,pendiente
+Mat-050,Cuzco,Cuzco y Avenida General San Martin,-34.686475,-58.514311,427,La Matanza,microbasural,pendiente
+Mat-051,De los Incas,De los Incas y vias del ferrocarril Manuel Belgrano,-34.706778,-58.566864,427,La Matanza,microbasural,pendiente
+Mat-052,Doblas,Billinghurst y Doblas,-34.731778,-58.651083,427,La Matanza,basural,pendiente
+Mat-053,Dumond,Federico Russo y Santos Dumont,-34.751867,-58.617114,427,La Matanza,punto de arrojo,pendiente
+Mat-054,El Mermelero,El Mermelero y Juan Domingo Peron,-34.713003,-58.553333,427,La Matanza,punto de arrojo,pendiente
+Mat-055,El Pindo,El Pindo y Guacamayo,-34.719117,-58.540808,427,La Matanza,punto de arrojo,pendiente
+Mat-056,España I,España al 400 entre Aberastain y San Martin,-34.697567,-58.500361,427,La Matanza,punto de arrojo,pendiente
+Mat-057,España II,España entre Ribera y Blanco Escalada,-34.688964,-58.491,427,La Matanza,punto de arrojo,pendiente
+Mat-058,Gallardo,Perseverancia y Gallardo (arroyo las viboras),-34.779811,-58.64765,427,La Matanza,punto de arrojo,pendiente
+Mat-059,Gallo,Leon Gallo y Antonio Miralles,-34.708556,-58.554472,427,La Matanza,punto de arrojo,pendiente
+Mat-060,Garcia Merou,Garcia Merou y Titanic,-34.719256,-58.630725,427,La Matanza,punto de arrojo,pendiente
+Mat-061,Garmendia,Carola Lorenzini y Coronel Garmendia,-34.786286,-58.606572,427,La Matanza,punto de arrojo,pendiente
+Mat-062,Gorriti,Gorriti 900,-34.69985,-58.518792,427,La Matanza,microbasural,pendiente
+Mat-063,Granja Don Oscar,Colectora autopista Ricchieri y ruta provincial n° 4,-34.729028,-58.510694,427,La Matanza,basural,pendiente
+Mat-064,Haiti,Perseverancia y Haiti (arroyo Las Viboras),-34.783883,-58.645886,427,La Matanza,punto de arrojo,pendiente
+Mat-065,Inca,Carola Lorenzini e Incas,-34.769367,-58.634542,427,La Matanza,punto de arrojo,pendiente
+Mat-066,Isidro Casanova,calles ushuaia_watt_edison y torquinst,-34.727083,-58.578889,427,La Matanza,punto de arrojo,pendiente
+Mat-067,La Bastilla,La Bastilla entre Reano y Raulies,-34.736028,-58.621489,427,La Matanza,microbasural,pendiente
+Mat-068,La Paz,La Paz y Rucci,-34.687617,-58.598236,427,La Matanza,punto de arrojo,pendiente
+Mat-069,La Ribera,Camino de la Ribera Norte entre General Paz y Boulogne Sur Mer,-34.711244,-58.467814,427,La Matanza,microbasural,pendiente
+Mat-070,Lacar,San Matias y Lacar,-34.709997,-58.620569,427,La Matanza,microbasural,pendiente
+Mat-071,Larsen,Larsen y Santa Cruz,-34.703217,-58.597053,427,La Matanza,microbasural,pendiente
+Mat-072,Las Achiras,Boulonge Sur Mer entre Antofagasta y Ramon Carrillo,-34.707911,-58.489086,427,La Matanza,microbasural,pendiente
+Mat-073,Las Camelias I,Las Camelias y El Jacaranda,-34.719303,-58.550389,427,La Matanza,microbasural,pendiente
+Mat-074,Las Camelias II,Calle 200 entre El Pindo y arroyo de La Frontera,-34.716636,-58.552492,427,La Matanza,microbasural,pendiente
+Mat-075,Las Camelias III,Los Pensamientos y Los Jacintos,-34.718189,-58.552664,427,La Matanza,punto de arrojo,pendiente
+Mat-076,Lavalleja I,Doblas y Lavalleja,-34.741756,-58.637308,427,La Matanza,microbasural,pendiente
+Mat-077,Lavalleja II,Lavalleja 7656,-34.750111,-58.646697,427,La Matanza,microbasural,pendiente
+Mat-078,Madreselva,Urien y Madreselva,-34.836028,-58.643597,427,La Matanza,punto de Arrojo,pendiente
+Mat-079,Magnasco,Magnasco y Carola Lorenzini_ruta nacional n° 3,-34.776786,-58.621897,427,La Matanza,microbasural,pendiente
+Mat-080,Maranta,Urien y Maranta,-34.838981,-58.639953,427,La Matanza,punto de Arrojo,pendiente
+Mat-081,Marconi I,Marconi y ruta provincial n° 21,-34.736542,-58.561767,427,La Matanza,microbasural,pendiente
+Mat-082,Marconi II,Marconi y arroyo Don Mario,-34.733258,-58.565889,427,La Matanza,microbasural,pendiente
+Mat-083,Matanza,Camino de la Ribera Sur y arroyo Santa Catalina,-34.728847,-58.484533,427,La Matanza,microbasural,pendiente
+Mat-084,Mimbrera,Urien y La Mimbrera,-34.841092,-58.637383,427,La Matanza,punto de Arrojo,pendiente
+Mat-085,Molina,Agustin Molina y Arena,-34.830697,-58.628731,427,La Matanza,punto de arrojo,pendiente
+Mat-086,Monseñor Lopez,Ballivian y Monseñor Lopez,-34.778611,-58.619753,427,La Matanza,punto de arrojo,pendiente
+Mat-087,Norquin,Russo y Norquin,-34.734611,-58.63975,427,La Matanza,microbasural,pendiente
+Mat-088,Obligado,Obligado y Antartida Argentina (arroyo Don Mario),-34.727775,-58.567839,427,La Matanza,punto de arrojo,pendiente
+Mat-089,Parnaso,Urien y Parnaso,-34.844161,-58.633539,427,La Matanza,punto de Arrojo,pendiente
+Mat-090,Pedro de Mendoza,Pedro de Mendoza y Agüero,-34.691119,-58.509472,427,La Matanza,microbasural,pendiente
+Mat-091,Peribebuy,Peribebuy y La Porteña,-34.706136,-58.567731,427,La Matanza,punto de arrojo,pendiente
+Mat-092,Polledo,Polledo entre Merou y Rio Cuarto,-34.717136,-58.634764,427,La Matanza,basural,pendiente
+Mat-093,Posamay,Perseverancia y Luis Posamay (arroyo Las Viboras),-34.776883,-58.650567,427,La Matanza,punto de arrojo,pendiente
+Mat-094,Predio Cespedes I,Cespedes a 200 metros de la ruta provincial n° 1001,-34.731761,-58.651553,427,La Matanza,basural,pendiente
+Mat-095,Predio Cespedes II,Cespedes entre Coronel Aguirre y Billinghurst,-34.731075,-58.653019,427,La Matanza,basural,pendiente
+Mat-096,Predio La Salada,Camino de la Ribera Norte y El Tala,-34.721058,-58.479044,427,La Matanza,microbasural,pendiente
+Mat-097,Predio Palermo,Palermo y Julian Aguirre,-34.903828,-58.680006,427,La Matanza,microbasural,pendiente
+Mat-098,Puente 12,Puente 12 y Camino de Cintura_Ricchieri y Rio Matanza,-34.726419,-58.507106,427,La Matanza,punto de arrojo,pendiente
+Mat-099,Puna,Puna y ruta nacional n° 3,-34.724108,-58.597489,427,La Matanza,punto de arrojo,pendiente
+Mat-100,Racunda,Urien y Racunda,-34.836864,-58.642547,427,La Matanza,punto de Arrojo,pendiente
+Mat-101,Ramon Carrillo,Ramon Carrillo entre colectora General Paz y Boulogne Sur Mer,-34.709444,-58.473889,427,La Matanza,basural,pendiente
+Mat-102,Recuero I,Recuero y ruta nacional n° 3,-34.743028,-58.609725,427,La Matanza,punto de arrojo,pendiente
+Mat-103,Recuero II,Recuero entre Salado y Ruiz de los Llanos,-34.748175,-58.603578,427,La Matanza,microbasural,pendiente
+Mat-104,Riglos,La Bastilla y Riglos,-34.7473,-58.633319,427,La Matanza,punto de arrojo,pendiente
+Mat-105,Roggio,La Mulita y El Pindo,-34.718564,-58.547747,427,La Matanza,microbasural,pendiente
+Mat-106,Roosevelt,San Martin continuacion Roosevelt,-34.702928,-58.486656,427,La Matanza,punto de arrojo,pendiente
+Mat-107,Rotonda Querandi,El Hornero y El Pindo,-34.720669,-58.538047,427,La Matanza,microbasural,pendiente
+Mat-108,Ruiz de los Llanos,Ruiz de los Llanos e Ingeniero Marconi,-34.726042,-58.575911,427,La Matanza,punto de arrojo,pendiente
+Mat-109,Ruta 1001 (Matanza),Ruta provincial n° 1001 y Conde,-34.748378,-58.663997,427,La Matanza,punto de arrojo,pendiente
+Mat-110,Ruta 3,Ruta nacional n° 3 kilometro 37 interseccion calle Matanza,-34.82545,-58.643164,427,La Matanza,microbasural,pendiente
+Mat-111,San Cayetano,Riglos y Concejal Gomez,-34.7748,-58.597636,427,La Matanza,punto de arrojo,pendiente
+Mat-112,San Martin,San Martin y España,-34.696092,-58.498458,427,La Matanza,microbasural,pendiente
+Mat-113,San Matias,San Matias y Doblas,-34.733972,-58.647372,427,La Matanza,punto de arrojo,pendiente
+Mat-114,Scarlatti,Scarlatti y Perseverancia (arroyo Las Viboras),-34.785306,-58.64625,427,La Matanza,punto de arrojo,pendiente
+Mat-115,Spiro,Santa Catalina y Spiro (arroyo Dupuy),-34.754342,-58.588022,427,La Matanza,punto de arrojo,pendiente
+Mat-116,Teuco,Rio Cuarto y Teuco,-34.768228,-58.577517,427,La Matanza,microbasural,pendiente
+Mat-117,Thompson,Mariquita Sanchez de Thompson y España,-34.69065,-58.492683,427,La Matanza,microbasural,pendiente
+Mat-118,Tinogasta,Ballivian y Tinogasta,-34.767728,-58.6378,427,La Matanza,punto de arrojo,pendiente
+Mat-119,Totoral,Perseverancia y Totoral (arroyo Las Viboras),-34.778814,-58.648078,427,La Matanza,punto de Arrojo,pendiente
+Mat-120,Tuyu,Tuyu entre Recuero y Risso Patron,-34.768317,-58.57645,427,La Matanza,basural,pendiente
+Mat-121,Urdaneta,Urdaneta entre Jufre y Edison,-34.718469,-58.59315,427,La Matanza,microbasural,pendiente
+Mat-122,Varela,Carola Lorenzini y Juan Cruz Varela,-34.782792,-58.61225,427,La Matanza,punto de arrojo,pendiente
+Mat-123,Velazco,Ballivian y Juan Ramirez de Velasco,-34.7757,-58.624533,427,La Matanza,punto de arrojo,pendiente
+Mat-124,Vicente Ibañez,Vicente Ibañez entre General Rivas y Equiza,-34.801169,-58.613681,427,La Matanza,basural,pendiente
+Mat-125,Villa Palito,Avenida Alcorta entre Peribebuy y Asamblea,-34.698639,-58.554889,427,La Matanza,basural,pendiente
+Mat-126,Virgenes,Virgenes y Riglos,-34.750072,-58.629289,427,La Matanza,microbasural,pendiente
+Mat-127,Virrey del Pino,Gualeguay y Corrales,-34.858675,-58.6378,427,La Matanza,punto de arrojo,pendiente
+Mat-128,Vogel,Vogel entre Tomas Edison y Elias Bedoya,-34.704061,-58.610078,427,La Matanza,microbasural,pendiente
+Mat-129,Wast,Urien y Hugo Wast,-34.832994,-58.647275,427,La Matanza,punto de Arrojo,pendiente
+Lan-001,ACUBA,Olazabal 5655 y Coronel Molinerdo,-34.690789,-58.441056,434,Lanus,microbasural,pendiente
+Lan-002,Bacara,Jean Jaures y Luzuriaga,-34.663522,-58.420239,434,Lanus,microbasural,pendiente
+Lan-003,Callao,Callao y Coronel Lucero,-34.671378,-58.420267,434,Lanus,punto de arrojo,pendiente
+Lan-004,Camino de la Ribera Sur,Camino de la Ribera Sur y Hornos,-34.688531,-58.446294,434,Lanus,microbasural,pendiente
+Lan-005,Darragueira I,Darragueira y Virrey Santiago de Liniers,-34.671092,-58.418922,434,Lanus,microbasural,pendiente
+Lan-006,Darregueira II,Darregueira 1859 y Virrey Santiago de Liniers,-34.673753,-58.422581,434,Lanus,punto de arrojo,pendiente
+Lan-007,Guatemala,Guatemala entre Rivadavia y Oliden,-34.672378,-58.396739,434,Lanus,microbasural,pendiente
+Lan-008,Millan I,Millan y Darragueira,-34.67295,-58.42175,434,Lanus,punto de arrojo,pendiente
+Lan-009,Millan II,Millan entre Obon y Lucero,-34.672289,-58.422247,434,Lanus,punto de arrojo,pendiente
+Lan-010,Nidera,Otamendi y Balcarce,-34.668942,-58.42255,434,Lanus,punto de arrojo,pendiente
+Lan-011,Obon y la via,Vias ferrocarril entre Obon y la via,-34.669608,-58.419025,434,Lanus,punto de arrojo,pendiente
+Lan-012,Obon y Millan,Obon y Millan,-34.670972,-58.423978,434,Lanus,punto de arrojo,pendiente
+Lan-013,Pampa y la via,Vias ferrocarril Belgrano Sur entre Pampa y Jean Jaures,-34.667633,-58.418686,434,Lanus,punto de arrojo,pendiente
+Lan-014,Sayos y la via,Coronel Sayos,-34.675364,-58.423972,434,Lanus,punto de arrojo,pendiente
+Lan-015,Veracruz,Veracruz entre Santiago del Estero y Fray Julian Lagos,-34.688025,-58.397133,434,Lanus,punto de arrojo,pendiente
+Lan-016,Villa Caraza,Hernandarias y Chubut,-34.699875,-58.431953,434,Lanus,punto de arrojo,pendiente
+Lan-017,Villa Jardin,Pellegrini 2400-2700,-34.673097,-58.43315,434,Lanus,punto de arrojo,pendiente
+Lan-018,Villegas,Camino de La Ribera Sur y Villegas,-34.694,-58.450778,434,Lanus,punto de Arrojo,pendiente
+Lom-001,Barrio La Cava,Unamuno e Islandia,-34.718314,-58.438994,490,Lomas de Zamora,microbasural,pendiente
+Lom-002,Barrio Olimpo I,Avenida 101 y Juan Manuel de Rosas,-34.736528,-58.482014,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-003,Barrio Olimpo II,Recondo y Benito Perez Galdoz,-34.711831,-58.445856,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-004,Barrio Roberto Arlt,Pilcomayo entre Unamuno y Muratore,-34.708817,-58.446275,490,Lomas de Zamora,microbasural,pendiente
+Lom-005,Bajada a colectora de Peron,Colectora de autopista Juan Domingo Peron 4100 (bajada a colectora),-34.721992,-58.445892,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-006,Canada,Canada y colectora de autopista Juan Domingo Peron,-34.718644,-58.448756,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-007,Chancheria Lomas,Avenida 101 (Peñaloza) y diagonal 15,-34.758967,-58.470581,490,Lomas de Zamora,microbasural,pendiente
+Lom-008,Conesa,Camino de la Ribera Sur y Conesa,-34.692933,-58.449622,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-009,Desembocadura Arroyo Catalina,Camino de la Ribera Sur y desembocadura del arroyo Santa Catalina,-34.727961,-58.483578,490,Lomas de Zamora,microbasural,pendiente
+Lom-010,Diagonal Pasaje Roberto Arlt,Pasaje Roberto Arlt 1750 (a 200 metros de Quesada),-34.714328,-58.441289,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-011,Euskadi,Camino de la Ribera Sur y Euskadi,-34.720822,-58.47645,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-012,Galasso,Camino de la Ribera Sur y ecopunto Lomas,-34.703422,-58.450694,490,Lomas de Zamora,basural,pendiente
+Lom-013,Goiri,Camino de la Ribera Sur y Goiri,-34.721675,-58.477497,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-014,Hornos,Camino de la Ribera Sur y Hornos,-34.689908,-58.447444,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-015,Itati,Itati y arroyo del Rey,-34.734792,-58.459453,490,Lomas de Zamora,basural,pendiente
+Lom-016,Lavallol,Camino de Cintura y avenida Silva,-34.816086,-58.430717,490,Lomas de Zamora,microbasural,pendiente
+Lom-017,Lavarden,Camino de la Ribera Sur y Lavarden,-34.717256,-58.472489,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-018,Luis Viale,Luis Viale y Champalagne,-34.751983,-58.439603,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-019,Manzini,Avenida Brigadier General Juan Manuel de Rosas y Manzini,-34.733664,-58.475439,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-020,Meandro Arroyo Unamuno,Plumerillo y Santa Lucia,-34.695111,-58.449456,490,Lomas de Zamora,microbasural,pendiente
+Lom-021,Millan fondo,Capitan Ruben Martell entre Pardo y Capitan J. Yaben,-34.740564,-58.485411,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-022,Otto Krausse,Camino de la Ribera Sur y Otto Krausse,-34.720272,-58.475858,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-023,Peñaloza,Peñaloza,-34.759614,-58.470917,490,Lomas de Zamora,microbasural,pendiente
+Lom-024,Pio Baroja,Pio Baroja 1800-1900,-34.71455,-58.445947,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-025,Predio Arce,Gaspar Nuñez de Arce y Quesada (frente a la UPA),-34.715206,-58.44825,490,Lomas de Zamora,microbasural,pendiente
+Lom-026,Predio Ponds,Camino de la Ribera Sur y predio Ponds,-34.730342,-58.487092,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-027,Puente Colon,Arroyo Santa Catalina entre Colon y Elizalde,-34.751794,-58.479514,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-028,Quesada,Camino Negro y Quesada,-34.717328,-58.449572,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-029,Santuario,Gabriel Miro entre Ayolas y Quesada,-34.714267,-58.447472,490,Lomas de Zamora,microbasural,pendiente
+Lom-030,Tramo final Arroyo Santa Catalina,Camino de la Ribera Sur y arroyo Santa Catalina,-34.727733,-58.4839,490,Lomas de Zamora,punto de arrojo,pendiente
+Lom-031,Virgilio,Camino de la Ribera Sur y Virgilio,-34.718947,-58.474394,490,Lomas de Zamora,punto de arrojo,pendiente
+Mpaz-001,Cementerio,Avenida Almirante Brown y Libertad,-34.789561,-58.854944,525,Marcos Paz,punto de arrojo,pendiente
+Mpaz-002,Marcos Paz I,Zabala entre El Martillo y arroyo Morales,-34.837825,-58.835728,525,Marcos Paz,macrobasural,pendiente
+Mpaz-003,Marcos Paz II,Calle rural sin nombre a 580 m de Julian Aguirre,-34.808622,-58.810586,525,Marcos Paz,basural,pendiente
+Mer-001,Jufre,Jufre entre Gallo y Bolivia,-34.708114,-58.688136,539,Merlo,microbasural,pendiente
+Mer-002,Merlo,Triunvirato entre Hernandarias y Bella Vista,-34.725542,-58.659528,539,Merlo,punto de arrojo,pendiente
+Mer-003,Montes de Oca,Montes de Oca y Caxaraville,-34.740886,-58.679756,539,Merlo,microbasural,pendiente
+Mer-004,Naciente Arroyo Moron,Bella Vista y Atahualpa,-34.700825,-58.658875,539,Merlo,punto de arrojo,pendiente
+Mer-005,Paz Roldan,Paz Roldan y ruta provincial n° 21,-34.753869,-58.680092,539,Merlo,punto de arrojo,pendiente
+Mer-006,Ruta 1001 (Merlo),Ruta provincial n° 1001 y Conde,-34.748625,-58.663978,539,Merlo,punto de arrojo,pendiente
+Mer-007,Santa Monica,Montes de Oca y Bella Vista,-34.716753,-58.710858,539,Merlo,punto de Arrojo,pendiente
+Mer-008,Triunvirato,Triunvirato y Bella Vista,-34.706733,-58.685411,539,Merlo,microbasural,pendiente
+Mor-001,Santa Rosa,Avenida Eva Peron y Santa Rosa,-34.701806,-58.639797,568,Moron,microbasural,pendiente

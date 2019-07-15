@@ -179,10 +179,8 @@ int main (int argc, char** argv) {
 				}
 
 
-
-				if (file_out != stdout){
-					fclose(file_out);
-				}
+				fclose(file_in);
+				fclose(file_out);
 
 				return err;
 				//FIN DEL PROGRAMA PRINCIPAL -------------------------------------------------

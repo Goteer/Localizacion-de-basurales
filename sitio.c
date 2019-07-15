@@ -16,6 +16,16 @@ static void rstrip(char *linea) {
     }
 }
 
+error_t convertType(char* value, double* dest)
+{
+    int errorLocal = sscanf(value,"%lf",dest);
+    if (errorLocal==0 || errorLocal==EOF){
+        return ERROR_CAMPO_NO_ES_NUMERICO;
+    }else{
+        return OK;
+    }
+}
+
 error_t csv_extraer_campo(const char **comienzo, char *destino, size_t longitud_max, bool ultimo) {
     size_t i;
     // Calcular longitud del campo
@@ -38,7 +48,7 @@ error_t csv_extraer_campo(const char **comienzo, char *destino, size_t longitud_
 
 error_t linea_csv_a_sitio_t(char *linea, sitio_t *sitio) {
     error_t err;
-    char muni_id[20], tipologia[40];
+    char muni_id[20], tipologia[40], latitud[20], longitud[20];
     const char *comienzo_campo = linea;
 
     rstrip(linea);
@@ -53,10 +63,14 @@ error_t linea_csv_a_sitio_t(char *linea, sitio_t *sitio) {
     err = csv_extraer_campo(&comienzo_campo, sitio->sitios_direccion, 200, false);
     if (err != OK) return err;
 
-    err = csv_extraer_campo(&comienzo_campo, sitio->sitios_latitud, 20, false);
+    err = csv_extraer_campo(&comienzo_campo, latitud, 20, false);
+    if (err != OK) return err;
+    err = convertType(latitud,&sitio->sitios_latitud);
     if (err != OK) return err;
 
-    err = csv_extraer_campo(&comienzo_campo, sitio->sitios_longitud, 20, false);
+    err = csv_extraer_campo(&comienzo_campo, longitud, 20, false);
+    if (err != OK) return err;
+    err = convertType(longitud,&sitio->sitios_longitud);
     if (err != OK) return err;
 
     err = csv_extraer_campo(&comienzo_campo, muni_id, 20, false);

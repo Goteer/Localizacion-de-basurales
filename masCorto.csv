@@ -1,0 +1,16 @@
+﻿sitios_id,sitios_denominacion,sitios_direccion,sitios_latitud,sitios_longitud,municipios_id,municipios_descripcion,sitios_tipologia,sitios_estado
+Bro-001,Arroyo del Rey I,Camino de Las Latas y naciente del arroyo del Rey,-34.865542,-58.408072,28,Almirante Brown,microbasural,pendiente
+Bro-002,Arroyo del Rey II,Pino y Soto Acebal,-34.8168,-58.410361,28,Almirante Brown,microbasural,pendiente
+Bro-003,Avenida Argentina,Avenida Argentina a 1300 metros de la ruta provincial n° 16 y Fonrouge,-34.863225,-58.420542,28,Almirante Brown,microbasural,pendiente
+Bro-004,Bradley,Bradley y arroyo del Rey,-34.8165,-58.409214,28,Almirante Brown,punto de arrojo,pendiente
+Bro-005,Camino de las Latas,Ruta provincial n° 16 y Berlin,-34.862131,-58.407003,28,Almirante Brown,microbasural,pendiente
+Bro-006,Club Aleman,Avenida Argentina y Las Violetas,-34.837017,-58.435942,28,Almirante Brown,basural,pendiente
+Bro-007,El Plata,El Plata y Ovidio Lagos,-34.877375,-58.370789,28,Almirante Brown,microbasural,pendiente
+Bro-008,Ombu,Pino y Ombu,-34.827108,-58.429111,28,Almirante Brown,microbasural,pendiente
+Bro-009,Pedro Echagüe,Pedro Echagüe entre Eva Peron y arroyo del Rey,-34.829297,-58.408136,28,Almirante Brown,microbasural,pendiente
+Bro-010,Pintos,Cuyo entre Pintos y arroyo del Rey,-34.839803,-58.406408,28,Almirante Brown,punto de arrojo,pendiente
+Bro-011,Tomas Guido,Tomas Guido entre avenida Argentina y Jose Ingenieros,-34.847,-58.424839,28,Almirante Brown,microbasural,pendiente
+Ave-001,Chacabuco,Chacabuco y Zeballos,-34.655739,-58.366108,35,Avellaneda,punto de arrojo,pendiente
+Ave-002,Defensa,Defensa y Madrid,-34.647025,-58.350603,35,Avellaneda,microbasural,pendiente
+Ave-003,Ex Aceitera,Fabrica abandonada frente a la SIAM,-34.661428,-58.40135,35,Avellaneda,punto de arrojo,pendiente
+Ave-004,Huergo,Ingeniero Luis Huergo y autopista La Plata (bajo autopista),-34.655231,-58.351803,35,Avellaneda,punto de arrojo,pendiente

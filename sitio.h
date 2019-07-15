@@ -22,8 +22,8 @@ typedef struct {
     char sitios_id[8];
     char sitios_denominacion[200];
     char sitios_direccion[200];
-    char sitios_latitud[20];
-    char sitios_longitud[20];
+    double sitios_latitud;
+    double sitios_longitud;
     int municipios_id;
     char municipios_descripcion[200];
     tipologia_t sitios_tipologia;

@@ -96,7 +96,7 @@ error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 	char tipo[16] = "";
 
 	linea=cargar_linea(file_in,linea);//Saco la primera linea que contiene los nombres de columna
-	linea=cargar_linea(file_in,linea);
+	linea=cargar_linea(file_in,linea);//Usar esta funcion lleva a tener que hacer un free(linea) al final
 	err = linea_csv_a_sitio_t(linea, &sitio);
 
 	if (!muni){ //SI NO SE USO LA OPCION -m
@@ -120,7 +120,7 @@ error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 					strcpy(tipo,"Macrobasural");
 			}
 
-		  fprintf(file_out,"%s,%s{%s: %s}<%s-dot>\n",sitio.sitios_latitud,sitio.sitios_longitud,tipo,sitio.sitios_denominacion,color);
+		  fprintf(file_out,"%lf,%lf{%s: %s}<%s-dot>\n",sitio.sitios_latitud,sitio.sitios_longitud,tipo,sitio.sitios_denominacion,color);
 
 		  linea=cargar_linea(file_in,linea);
 		  err = linea_csv_a_sitio_t(linea, &sitio);
@@ -154,8 +154,8 @@ error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 			if ((pos = array_search(municipios,cantMunicipios,sitio.municipios_id))==-1){ //Si no estaba guardado el municipio
 				municipios[cantMunicipios] = sitio.municipios_id;
 				sumas[cantMunicipios] = valor;
-				latitud[cantMunicipios] = atof(sitio.sitios_latitud); //Convertir string a double
-				longitud[cantMunicipios] = atof(sitio.sitios_longitud);
+				latitud[cantMunicipios] = sitio.sitios_latitud; //Convertir string a double
+				longitud[cantMunicipios] = sitio.sitios_longitud;
 				cantMunicipios++;
 				sumas=realloc(sumas,sizeof(int)*(cantMunicipios+1));
 				municipios=realloc(municipios,sizeof(int)*(cantMunicipios+1));
@@ -196,13 +196,13 @@ error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 			fprintf(file_out,"%lf,%lf<%s-dot>\n",latitud[i],longitud[i],color);
 		}
 
-		free(linea);
 		free(latitud);
 		free(longitud);
 		free(sumas);
 		free(municipios);
 	}
 
+	free(linea);
 	if (err==ERROR_FALTAN_CAMPOS && feof(file_in)){ //Si se termino el archivo ya no hay campos que leer, fin correcto.
 		return OK;
 	}else{
