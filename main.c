@@ -61,7 +61,7 @@ int main (int argc, char** argv) {
 
 				static const struct option longOpts[] = { //opciones largas para los flags, para getopt_long
 		    		{ "leer", required_argument, NULL, 'l' },
-					{ "salida", required_argument, NULL, 's' }, //"optional_argument" no hace nada especial que este programa requiera.
+					{ "salida", required_argument, NULL, 's' },
 					{ "municipio", no_argument, NULL, 'm' },
 		    		{ NULL, no_argument, NULL, 0 }
 				};
@@ -150,25 +150,22 @@ int main (int argc, char** argv) {
 				if (file_in!=NULL){
 					err = ordenes_salida(file_in,file_out,muni);
 					if (err != OK){
+						error=70;
 						switch (err){
 							case ERROR_CAMPO_MUY_LARGO:
 							puts("Se encontro un campo demasiado largo."); //exit(70): Campo muy largo
-							err=70;
-
 							break;
 						    case ERROR_FALTAN_CAMPOS:
 							puts("Formato incorrecto: Faltan campos."); //exit(71): Faltan campos
-							err=71;
+							error++;
 							break;
 							case ERROR_CAMPO_NO_ES_NUMERICO:
 							puts("Formato incorrecto: Se esperaba un campo numerico, pero se encontro otro tipo."); //exit(72): Campo no es numerico
-							err=72;
-
+							error+=2;
 							break;
 							case ERROR_TIPOLOGIA_NO_VALIDA:
 							puts("Formato incorrecto: Se encontro una tipologia no valida."); //exit(73): Tipologia no valida
-							err=73;
-
+							error+=3;
 							break;
 							case OK: //Este caso solo esta para quitar un warning. No tiene sentido.
 							break;
@@ -189,9 +186,9 @@ int main (int argc, char** argv) {
 				//FIN DEL PROGRAMA PRINCIPAL -------------------------------------------------
 
 
-			} //fin del ELSE de if (orden == 'h')
-		}//fin del ELSE de  if (orden != 'h' && (entrada <1))
-	}else{ //if (argc>1)
+			} //fin if
+		}
+	}else{
 		puts("Se requieren parametros para ejecutar el programa. Para más informacion use el parametro -h (--help) o -a (--ayuda). Ej: localizador.exe -h\n");
 	}
 
