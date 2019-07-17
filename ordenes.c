@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include "sitio.h"
+#include "ordenes.h"
 
 void ordenes_ayuda(){
 
@@ -56,11 +57,11 @@ error_t ordenes_salida_old(FILE* file_in, FILE* file_out,int muni){
 						return OK;
 }*/
 
-int array_search(int* array,int arrayLength, int target){
+int array_search(municipio_t *array , int arrayLength, int target){
 
 	int found = -1;
 	for (int i=0;i<arrayLength && found==-1;i++){
-		if (array[i] == target){
+		if (array[i].municipios_id == target){
 			found=i;
 		}
 	}
@@ -129,11 +130,14 @@ error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 	}else{ //SI SE USO LA OPCION -m
 
 		int cantMunicipios = 0;
-		int *municipios = (int*)(malloc(sizeof(int)));
-		int *sumas = (int*)(malloc(sizeof(int)));
+		//int *municipios = (int*)(malloc(sizeof(int)));
+		//int *sumas = (int*)(malloc(sizeof(int)));
 
-		double *latitud = (double *)(malloc(sizeof(double)));
-		double *longitud = (double *)(malloc(sizeof(double)));
+		//double *latitud = (double *)(malloc(sizeof(double)));
+		//double *longitud = (double *)(malloc(sizeof(double)));
+
+		municipio_t *muni = (municipio_t *)(malloc(sizeof(municipio_t)));
+
 		int pos = -1;
 		int valor = -1;
 		while (err == OK && !feof(file_in)){
@@ -151,18 +155,20 @@ error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 					valor=4;
 			}
 
-			if ((pos = array_search(municipios,cantMunicipios,sitio.municipios_id))==-1){ //Si no estaba guardado el municipio
-				municipios[cantMunicipios] = sitio.municipios_id;
-				sumas[cantMunicipios] = valor;
-				latitud[cantMunicipios] = sitio.sitios_latitud; //Convertir string a double
-				longitud[cantMunicipios] = sitio.sitios_longitud;
+			if ((pos = array_search(muni,cantMunicipios,sitio.municipios_id))==-1){ //Si no estaba guardado el municipio
+				muni[cantMunicipios].municipios_id = sitio.municipios_id;
+				muni[cantMunicipios].suma = valor;
+				strcpy(muni[cantMunicipios].municipios_descripcion,sitio.municipios_descripcion);
+				muni[cantMunicipios].sitios_latitud = sitio.sitios_latitud;
+				muni[cantMunicipios].sitios_longitud = sitio.sitios_longitud;
 				cantMunicipios++;
-				sumas=realloc(sumas,sizeof(int)*(cantMunicipios+1));
-				municipios=realloc(municipios,sizeof(int)*(cantMunicipios+1));
-				latitud=realloc(latitud,sizeof(double)*(cantMunicipios+1));
-				longitud=realloc(longitud,sizeof(double)*(cantMunicipios+1));
+				//sumas=realloc(sumas,sizeof(int)*(cantMunicipios+1));
+				//municipios=realloc(municipios,sizeof(int)*(cantMunicipios+1));
+				//latitud=realloc(latitud,sizeof(double)*(cantMunicipios+1));
+				//longitud=realloc(longitud,sizeof(double)*(cantMunicipios+1));
+				muni=realloc(muni,sizeof(municipio_t)*(cantMunicipios+1));
 			}else{ //Si el municipio ya fue registrado
-				sumas[pos]+=valor;
+				muni[pos].suma+=valor;
 			}
 
 
@@ -174,32 +180,29 @@ error_t ordenes_salida(FILE* file_in, FILE* file_out,int muni){
 
 		int max = -1,maxPos=-1;
 		for (int i=0;i<cantMunicipios;i++){ //Reviso cual municipio tiene mayor valor
-			if (sumas[i]>max){
-				max=sumas[i];
+			if (muni[i].suma>max){
+				max=muni[i].suma;
 				maxPos=i;
 			}
 		}
 
-		int grado_relativo = sumas[maxPos]/4;
+		int grado_relativo = muni[maxPos].suma/4;
 
 		for (int i=0;i<cantMunicipios;i++){
-			if (sumas[i]<grado_relativo){
+			if (muni[i].suma<grado_relativo){
 				strcpy(color,"tan");
-			}else if (sumas[i]<grado_relativo*2){
+			}else if (muni[i].suma<grado_relativo*2){
 				strcpy(color,"yellow");
-			}else if (sumas[i]<grado_relativo*3){
+			}else if (muni[i].suma<grado_relativo*3){
 				strcpy(color,"orange");
 			}else{
 				strcpy(color,"default");
 			}
 
-			fprintf(file_out,"%lf,%lf<%s-dot>\n",latitud[i],longitud[i],color);
+			fprintf(file_out,"%lf,%lf{%s, Cod:%d}<%s-dot>\n",muni[i].sitios_latitud,muni[i].sitios_longitud,muni[i].municipios_descripcion,muni[i].municipios_id,color);
 		}
 
-		free(latitud);
-		free(longitud);
-		free(sumas);
-		free(municipios);
+		free(muni);
 	}
 
 	free(linea);

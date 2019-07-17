@@ -1,0 +1,1 @@
+No se especifico archivo de salida, se imprimirá el resultado en pantalla.

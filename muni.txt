@@ -1,0 +1,11 @@
+-34.865542,-58.408072{Almirante Brown, Cod:28}<tan-dot>
+-34.655739,-58.366108{Avellaneda, Cod:35}<tan-dot>
+-35.035064,-58.713050{Canuelas, Cod:134}<tan-dot>
+-34.853950,-58.477053{Esteban Echeverria, Cod:260}<orange-dot>
+-34.844867,-58.533647{Ezeiza, Cod:270}<tan-dot>
+-34.712583,-58.555308{La Matanza, Cod:427}<default-dot>
+-34.690789,-58.441056{Lanus, Cod:434}<tan-dot>
+-34.718314,-58.438994{Lomas de Zamora, Cod:490}<tan-dot>
+-34.789561,-58.854944{Marcos Paz, Cod:525}<tan-dot>
+-34.708114,-58.688136{Merlo, Cod:539}<tan-dot>
+-34.701806,-58.639797{Moron, Cod:568}<tan-dot>

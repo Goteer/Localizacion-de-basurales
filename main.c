@@ -40,12 +40,12 @@ int main (int argc, char** argv) {
 
 
 		if (orden != 'h' && (entrada <1)){
-			puts("El parametro -l (--leer) es obligatorio. Cancelando operacion...\n");
+			fputs("El parametro -l (--leer) es obligatorio. Cancelando operacion...\n",stderr);
 			exit(67);
 		}else{
 
 			if (entrada >1 || salida >1){
-				puts("Los parametros -l (--leer) y -s (--salida) no pueden repetirse. Cancelando operacion...\n");
+				fputs("Los parametros -l (--leer) y -s (--salida) no pueden repetirse. Cancelando operacion...\n",stderr);
 				exit(67);
 			}
 
@@ -77,20 +77,20 @@ int main (int argc, char** argv) {
 						if (optarg[0] != '-'){
 							ruta_entrada = optarg;
 						}else{
-							puts("-l (--leer) requiere una ruta de archivo.\n");
+							fputs("-l (--leer) requiere una ruta de archivo.\n",stderr);
 							exit(66);
 						}
 
 						break;
 						case 's':
 						if (entrada<1){
-							puts("Se ingresó el parametro de salida pero no el de entrada. Intente de nuevo añadiendo -l <ruta de archivo de entrada>\n");
+							fputs("Se ingresó el parametro de salida pero no el de entrada. Intente de nuevo añadiendo -l <ruta de archivo de entrada>\n",stderr);
 							exit(67);
 						}else{
 							if (optarg[0] == '-'){
 								if (strcmp(optarg,"-")!=0){ //Si el guion no era literal, era otro parametro
 									optind--;
-									puts("No se especifico archivo de salida, se imprimirá el resultado en pantalla.\n");
+									puts("No se especifico archivo de salida, se imprimirá el resultado en pantalla."); //Esto es una funcion del programa, no un error.
 
 								}
 
@@ -101,7 +101,7 @@ int main (int argc, char** argv) {
 						break;
 						case 'm':
 						if (salida<1){
-							puts("Se ingreso el parametro de restriccion de uno por municipio, pero no hay parametro que indique la salida. Intente de nuevo añadiendo -s o -s <ruta archivo de salida>\n");
+							fputs("Se ingreso el parametro de restriccion de uno por municipio, pero no hay parametro que indique la salida. Intente de nuevo añadiendo -s o -s <ruta archivo de salida>\n",stderr);
 							exit(67);
 						}else{
 							muni = 1; //muni = true;
@@ -110,21 +110,21 @@ int main (int argc, char** argv) {
 						case ':':
 							switch (optopt){
 								case 'l':
-									puts("-l (--leer) requiere una ruta de archivo.\n");
+									fputs("-l (--leer) requiere una ruta de archivo.\n",stderr);
 									exit(66);
 								break;
 								case 's':
-									puts("No se especifico archivo de salida, se imprimirá el resultado en pantalla.\n");
+									puts("No se especifico archivo de salida, se imprimirá el resultado en pantalla."); //Esto es una funcion del programa, no un error.
 									file_out = stdout;
 								break;
 								default:
-									puts("Error de lectura de parametros. Cancelando operacion...\n");
+									fputs("Error de lectura de parametros. Cancelando operacion...\n",stderr);
 									exit(67);
 								break;
 								}
 						break;
 						case '?':
-							puts("Se encontro un parametro no válido, cancelando operación...\n");
+							fputs("Se encontro un parametro no válido, cancelando operación...\n",stderr);
 							exit(67);
 						break;
 					}
@@ -141,7 +141,7 @@ int main (int argc, char** argv) {
 				if (ruta_salida != NULL && strcmp(ruta_salida,"-")!=0){
 					file_out = fopen(ruta_salida,"wb");
 					if (file_out == NULL){
-						puts("El archivo de salida no pudo abrirse o no existe. ¿Esta abierto en otro programa?\n");
+						fputs("El archivo de salida no pudo abrirse o crearse. ¿Es un archivo de solo lectura o una ubicacion protegida?\n",stderr);
 						exit(68);
 					}
 				}
@@ -153,18 +153,18 @@ int main (int argc, char** argv) {
 						error=70;
 						switch (err){
 							case ERROR_CAMPO_MUY_LARGO:
-							puts("Se encontro un campo demasiado largo."); //exit(70): Campo muy largo
+							fputs("Se encontro un campo demasiado largo.",stderr); //exit(70): Campo muy largo
 							break;
 						    case ERROR_FALTAN_CAMPOS:
-							puts("Formato incorrecto: Faltan campos."); //exit(71): Faltan campos
+							fputs("Formato incorrecto: Faltan campos.",stderr); //exit(71): Faltan campos
 							error++;
 							break;
 							case ERROR_CAMPO_NO_ES_NUMERICO:
-							puts("Formato incorrecto: Se esperaba un campo numerico, pero se encontro otro tipo."); //exit(72): Campo no es numerico
+							fputs("Formato incorrecto: Se esperaba un campo numerico, pero se encontro otro tipo.",stderr); //exit(72): Campo no es numerico
 							error+=2;
 							break;
 							case ERROR_TIPOLOGIA_NO_VALIDA:
-							puts("Formato incorrecto: Se encontro una tipologia no valida."); //exit(73): Tipologia no valida
+							fputs("Formato incorrecto: Se encontro una tipologia no valida.",stderr); //exit(73): Tipologia no valida
 							error+=3;
 							break;
 							case OK: //Este caso solo esta para quitar un warning. No tiene sentido.
@@ -174,7 +174,7 @@ int main (int argc, char** argv) {
 					}
 
 				}else{
-					puts("El archivo de entrada no pudo abrirse o no existe. ¿Esta abierto en otro programa?\n");
+					fputs("El archivo de entrada no pudo abrirse o no existe. ¿Esta abierto en otro programa?\n",stderr);
 					exit(68);
 				}
 
@@ -189,7 +189,7 @@ int main (int argc, char** argv) {
 			} //fin if
 		}
 	}else{
-		puts("Se requieren parametros para ejecutar el programa. Para más informacion use el parametro -h (--help) o -a (--ayuda). Ej: localizador.exe -h\n");
+		fputs("Se requieren parametros para ejecutar el programa. Para más informacion use el parametro -h (--help) o -a (--ayuda). Ej: localizador.exe -h\n",stderr);
 	}
 
 
